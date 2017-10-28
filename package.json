@@ -1,0 +1,25 @@
+{
+  "name": "davikawasaki.github.io",
+  "version": "1.0.0",
+  "description": "My portfolio webpage",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "build-css": "node-sass --include-path scss sass/materialize.scss public/css/materialize.min.css --output-style compressed",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davikawasaki/davikawasaki.github.io.git"
+  },
+  "author": "Davi Kawasaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davikawasaki/davikawasaki.github.io/issues"
+  },
+  "homepage": "https://github.com/davikawasaki/davikawasaki.github.io#readme",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "node-sass": "^4.5.3"
+  }
+}
