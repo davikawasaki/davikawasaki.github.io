@@ -4,7 +4,7 @@
   "description": "My portfolio webpage",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon -e scss -x \"npm run watch-css\"",
+    "dev": "node app | npm run watch-css",
     "build-css": "node-sass --include-path scss sass/materialize.scss public/css/materialize.min.css --output-style compressed",
     "watch-css": "node-sass -w --include-path scss sass/materialize.scss public/css/materialize.min.css --output-style compressed"
   },
