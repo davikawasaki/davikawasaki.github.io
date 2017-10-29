@@ -18,8 +18,8 @@
   </head>
   <body>
     <header></header>
-    <section class="parallax-container valign-wrapper section-banner white-text" id="section-start">
-      <div class="section">
+    <section class="parallax-container valign-wrapper section-banner white-text section scrollspy" id="section-start">
+      <div class="section grey-white">
         <div class="row start">
           <div class="col m6 s12 offset-m1">
             <h1>DAVI KAWASAKI</h1>
@@ -48,13 +48,20 @@
             </a>
           </div>
         </div>
+        <div class="row center read-more">
+          <div class="col s12">
+            <a href="#section-about">
+              <i class="large material-icons">keyboard_arrow_down</i>
+            </a>
+          </div>
+        </div>
       </div>
       <div class="parallax">
         <img class="parallax-image" src="public/img/lamp.jpg" />
       </div>
     </section>
-    <section class="parallax-container valign-wrapper section-banner" id="section-about">
-      <div class="section">
+    <section class="parallax-container valign-wrapper section-banner section scrollspy" id="section-about">
+      <div class="section grey-black">
         <div class="row start">
           <div class="col m7 s12 offset-m1">
             <h1>ABOUT ME</h1>
@@ -64,13 +71,20 @@
             <p>Languages and technologies that I work with: Java, C, Python, MATLAB, HTML5, CSS3, Javascript, MySQL, PostgreSQL, MongoDB, Spring MVC, AngularJS, VueJS 2, NodeJS.</p>
           </div>
         </div>
+        <div class="row center read-more">
+          <div class="col s12">
+            <a href="#section-portfolio">
+              <i class="large material-icons">keyboard_arrow_down</i>
+            </a>
+          </div>
+        </div>
       </div>
       <div class="parallax">
         <img class="parallax-image" src="public/img/notebook.jpg" />
       </div>
     </section>
-    <section class="valign-wrapper white-text black" id="section-portfolio">
-      <div class="section">
+    <section class="valign-wrapper white-text black section scrollspy" id="section-portfolio">
+      <div class="section grey-white">
         <div class="row center">
           <div class="col s12">
             <h1>PORTFOLIO</h1>
@@ -216,9 +230,16 @@
             </div>
           </div>
         </div>
+        <div class="row center read-more">
+          <div class="col s12">
+            <a href="#section-contact">
+              <i class="large material-icons">keyboard_arrow_down</i>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="parallax-container valign-wrapper section-banner" id="section-contact">
+    <section class="parallax-container valign-wrapper section-banner section scrollspy" id="section-contact">
       <div class="section">
         <div class="row start">
           <div class="col m7 s12 offset-m1">
@@ -229,7 +250,7 @@
           </div>
         </div>
         <div class="row start">
-          <div class="col s7 offset-s1 no-pad">
+          <div class="col s7 offset-m1">
             <a href="mailto:davishinjik@gmail.com?subject=Freelance Contact">
             <button class="btn white black-text waves-effect waves-light">CONTACT ME
               <i class="material-icons right">send</i>
@@ -288,5 +309,10 @@
     </footer>
     <script type="text/javascript" src="public/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="public/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy({scrollOffset: 1});
+      });
+    </script>
   </body>
 </html>
