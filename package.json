@@ -4,9 +4,9 @@
   "description": "My portfolio webpage",
   "main": "app.js",
   "scripts": {
-    "dev": "node app.js",
+    "dev": "nodemon -e scss -x \"npm run watch-css\"",
     "build-css": "node-sass --include-path scss sass/materialize.scss public/css/materialize.min.css --output-style compressed",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "node-sass -w --include-path scss sass/materialize.scss public/css/materialize.min.css --output-style compressed"
   },
   "repository": {
     "type": "git",
