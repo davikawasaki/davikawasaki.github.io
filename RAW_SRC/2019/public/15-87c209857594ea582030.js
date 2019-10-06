@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{210:function(f,p,s){f.exports=s.p+"static/bg_skills-16b81def49201ff8ff65c2f70d5af6e6.jpg"}}]);
-//# sourceMappingURL=15-87c209857594ea582030.js.map
