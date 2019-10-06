@@ -1,0 +1,975 @@
+[
+    {
+        "id": "ellp",
+        "name": "Grupo ELLP",
+        "description": "Fundação e gerência de grupo voltado para ensino de tecnologias para crianças carentes.",
+        "about": [
+            "Composto por estudantes universitários engajados em tecnologia, o grupo oferece classes voluntárias a respeito de temas tecnológicos e outros tópicos de ciências exatas.",
+            "Por meio de aulas lúdicas e práticas, nossos alunos conseguem aprender tópicos avançados por meio da prática, sempre com o auxílio de um professor voluntário. Dessa forma, tanto os professores quanto alunos podem se divertir, de forma que o conhecimento possa ser difundido para impactar comunidades locais.",
+            "Vários objetivos foram desenvolvidos e alcançados durante desde da participação na fundação em 2012 até o desligamento em 2016. Iniciando por uma oficina para 6 alunos do ensino fundamental utilizando a plataforma Kodu Game Lab, o grupo evoluiu para aulas semianuais de diversos tópicos tecnológicos para mais de 50 alunos, continuando atualmente com alunos de diferentes contextos sociais.",
+            "Por meio de um ótimo ensino e gerenciamento dos projetos, o grupo foi reconhecido em agosto de 2015 pelo movimento Mapa Educação como um dos 100 melhores projetos com a capacidade de impactar e transformar a educação brasileira.",
+            "Funções desempenhadas: Fundador, gerente, professor, designer.",
+            "Ferramentas usadas: Kodu Game Lab, Lego Mindstorms, MIT Scratch, MIT App Inventor."
+        ],
+        "gallery": [
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_mapa_educacao_2015_banner.jpg",
+                "about": "Apresentação em banner das atividades do grupo ELLP na I Conferência Mapa Educação em 2015, com reconhecimento de um dos 100 melhores projetos com capacidade para impactar a educação brasileira."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_mapa_educacao_2015_folheto.jpg",
+                "about": "Folheto com a descrição em português de todos os grupos participantes na I Conferência Mapa Educação em 2015, com reconhecimento de um dos 100 melhores projetos com capacidade para impactar a educação brasileira."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_membros_2016_geral.jpg",
+                "about": "Cerimônia de integração dos novos membros do grupo ELLP para a gestão 2016/2017."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_castro_2016_aula.jpg",
+                "about": "Oficina de Kodu Game Lab ministrada em 2016 para a escola Castro Alves em Cornélio Procópio/PR."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_castro_2016_geral.jpg",
+                "about": "Foto geral com todos os estudantes e professores voluntários das Oficinas de Kodu Game Lab e Lego Mindstorms ministrada em 2016 para a escola Castro Alves em Cornélio Procópio/PR."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_dia_criancas_2016_ensino.jpg",
+                "about": "Atividade lúdica ministrada em 2016 na oficina especial de dia das crianças para a ONG Cantinho da Criança em Santa Mariana/PR."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_dia_criancas_2016_geral.jpg",
+                "about": "Foto geral com todos os estudantes e professores voluntários da oficina especial de dia das crianças ministrada em 2016 para a ONG Cantinho da Criança em Santa Mariana/PR."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_ong_livre_para_amar_aula_2016_geral.jpg",
+                "about": "Foto geral com todos os estudantes e professores voluntários da oficina de Lego Mindstorms ministrada em 2016 para a ONG Livre para Amar em Cornélio Procópio/PR."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_ong_livre_para_amar_aula_2016_lego.jpg",
+                "about": "Oficina de Lego Mindstorms ministrada em 2016 para a ONG Livre para Amar em Cornélio Procópio/PR."
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "http://grupoellp.com.br/",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/grupoellp",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/grupoellp",
+                "icon": "socialMediaInstagramCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "TV",
+                "title": "Trabalho Voluntário"
+            },
+            {
+                "abbr": "EP",
+                "title": "Ensino e Pedagogia"
+            },
+            {
+                "abbr": "DVW",
+                "title": "Desenvolvimento Web"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing e Branding"
+            }
+        ],
+        "date": {
+            "start": "1414760400",
+            "end": "1483228799"
+        }
+    },
+    {
+        "id": "rais",
+        "name": "RAIS Saúde",
+        "description": "Co-fundação, gerência de design e desenvolvimento full stack nessa startup de health care.",
+        "about": [
+            "Com a visão de transformar positivamente pessoas e o mundo através de transparência dos dados de saúde, o objetivo da RAIS Saúde foi de resolver o modo de documentação antiquado dos históricos de saúde, o qual normalmente se acumula em pilhas de papéis.",
+            "Por meio do fomento e desenvolvimento de um ecossistema de saúde, a startup almejava armazenar e compartilhar de forma digital o histórico de saúde de pacientes com profissionais de saúde de maneira simbiótica, assim como prover um sistema integrado digital para agendamento de consultas.",
+            "Funções desempenhadas: Co-fundador, designer, desenvolvedor full stack.",
+            "Ferramentas e metodologias usadas: Photoshop, Pacote Office, Spring MVC, AngularJS, Ionic, SASS, Gulp, Karma, Jasmine, PostgreSQL, MySQL, Docker, Microserviços, Aplicações Azure, Azure VSTS, AWS S3, AWS EC2, AWS Cloudfront, AWS Pipeline, OAuth, Scrum, DAD, Git."
+        ],
+        "gallery": [
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_home_page_2016.png",
+                "about": "Landing page desenvolvida para divulgação do produto RAIS Consultas em Android e Web."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_escola_patologia_portal_2016.png",
+                "about": "Webpage desenvolvido para divulgação e inscrições do curso ofertado pela Escola de Patologia em 2016."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_equipe_geral_dev.jpg",
+                "about": "Foto geral da equipe de desenvolvimento junto aos sócios da startup."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_wireframe_draw.jpg",
+                "about": "Wireframe geral elaborado à mão referente a aplicação móvel de consultas com telas e fluxograma de uso."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_prontuarios_prescricoes_wireframe_draw_2016.jpg",
+                "about": "Wireframe elaborado à mão referente a aplicação móvel de consultas com telas de prescrições e prontuários."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_web_clinica_agenda_consulta_confirmada.png",
+                "about": "Tela de confirmação de consulta agendada na versão web do produto RAIS Consultas desenvolvido em AngularJS."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_web_clinica_agenda_consulta_detalhes.png",
+                "about": "Tela de detalhes de uma consulta na versão web do produto RAIS Consultas desenvolvido em AngularJS."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_web_clinica_agenda_medico_atendimentos.png",
+                "about": "Tela de edição de atendimentos de uma agenda médica na versão web do produto RAIS Consultas desenvolvido em AngularJS."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_login_photoshop_2016.jpg",
+                "about": "Demonstração da tela de login na versão móvel do produto RAIS Consultas desenvolvida em Photoshop."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_pagamento_paciente_photoshop_2016.jpg",
+                "about": "Demonstração da tela de escolha de pagamento na versão móvel do produto RAIS Consultas desenvolvida em Photoshop."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_pagamentos_photoshop_2016.jpg",
+                "about": "Demonstração da tela de histórico de pagamentos de clientes na versão móvel do produto RAIS Consultas desenvolvida em Photoshop."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_consulta_requisitada_ionic_2016.png",
+                "about": "Tela de consulta requisitada na versão móvel do produto RAIS Consultas desenvolvida em Ionic."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_home_ionic_2016.png",
+                "about": "Tela inicial de pacientes na versão móvel do produto RAIS Consultas desenvolvida em Ionic."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_agenda_paciente_cancelamento_ionic_2016.png",
+                "about": "Tela de cancelamento de consultas por pacientes na versão móvel do produto RAIS Consultas desenvolvida em Ionic."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_agenda_medico_opcoes_ionic_2016.png",
+                "about": "Tela de opções de edição em uma agenda médica na versão móvel do produto RAIS Consultas desenvolvida em Ionic."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_agenda_medico_consulta_ionic_2016.png",
+                "about": "Tela de opções de confirmação e cancelamento de consulta em uma agenda médica na versão móvel do produto RAIS Consultas desenvolvida em Ionic."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_agenda_medico_consulta_cancelamento_ionic_2016.png",
+                "about": "Tela de opções de cancelamento de consulta em uma agenda médica na versão móvel do produto RAIS Consultas desenvolvida em Ionic."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_pharma_dashboard_wireframe_draw.jpg",
+                "about": "Wireframe elaborado à mão referente a aplicação web do produto RAIS Pharma com uma tela inicial de Dashboard."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_pharma_dashboard_wireframe_draw.jpg",
+                "about": "Wireframe elaborado em Photoshop referente a aplicação web do produto RAIS Pharma com uma tela inicial de Dashboard."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_pharma_home_page_photoshop.jpg",
+                "about": "Home page da demonstração de website desenvolvido Photoshop para o produto RAIS Pharma."
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://raislife.com",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/raisdata/",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/rais.life/",
+                "icon": "socialMediaInstagramCircleIcon"
+            },
+            {
+                "title": "Website",
+                "url": "https://web.archive.org/web/20170908213959/http://www.escoladepatologia.com:80/",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Linkedin",
+                "url": "https://www.linkedin.com/company/raislife",
+                "icon": "socialMediaLinkedinCircleIcon"
+            },
+            {
+                "title": "Website",
+                "url": "https://web.archive.org/web/20180321103809/https://raislife.com/consultas/",
+                "icon": "globeIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVS",
+                "title": "Desenvolvimento de Software"
+            },
+            {
+                "abbr": "DVW",
+                "title": "Desenvolvimento Web"
+            },
+            {
+                "abbr": "IU",
+                "title": "Interface de Usuário"
+            },
+            {
+                "abbr": "GP",
+                "title": "Gerência de Projetos"
+            },
+            {
+                "abbr": "EU",
+                "title": "Experiência do Usuário"
+            },
+            {
+                "abbr": "MA",
+                "title": "Metodologias Ágeis"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing e Branding"
+            },
+            {
+                "abbr": "DM",
+                "title": "Desenvolvimento Móvel"
+            }
+        ],
+        "date": {
+            "start": "1451653200",
+            "end": "1498914000"
+        }
+    },
+    {
+        "id": "komunhao",
+        "name": "Komunhão Livraria Cristã",
+        "description": "Trabalho freelance de marketing e branding desenvolvido para uma livraria cristã.",
+        "about": [
+            "Com a missão divina de edificar vidas por meio de literaturas cristãs, a Komunhão Livraria Cristã consiste em uma livraria familiar que oferece uma variedade de bíblias, livros e outros itens evangélicos desde 2015 na cidade de Cornélio Procópio - Paraná / Brasil.",
+            "Nesse projeto freelance, a contribuição foi executada entre 2015 e 2018 por meio de trabalhos de marketing e divulgação, basicamente focados em publicações e campanhas em redes sociais. Por meio do conhecimento em design adquirido ao longo do tempo, materiais de divulgação também foram desenvolvidos para esse cliente, indo desde cartões de visita, posters até publicações em redes sociais.",
+            "Funções desempenhadas: Consultor de marketing, designer.",
+            "Ferramentas e metodologias usadas: Photoshop, Illustrator, Redes Sociais, Google Ads, Facebook Ads."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "http://www.komunhao.com.br",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/komunhaolivraria/",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/komunhaolivraria/",
+                "icon": "socialMediaInstagramCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "IU",
+                "title": "Interface de Usuário"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing e Branding"
+            }
+        ],
+        "date": {
+            "start": "1434805200",
+            "end": "1546300799"
+        }
+    },
+    {
+        "id": "utfpr-movie-club",
+        "name": "Cine Clube UTFPR",
+        "description": "Co-fundação e gerência de design de um clube de cinema para discussão de produções cinematográficas.",
+        "about": [
+            "Fundada na celebração do dia da toalha com exibições de Star Wars: Uma Nova Esperança e Blade Runner, o clube tem como objetivo em não ser apenas um grupo simplista de cinema.",
+            "Totalmente oposto aos ideias do Clube da Luta, a fundação realizada no dia 25 de maio de 2013 foi estabelecida para fomentar discussões da sétima arte em um ambiente acadêmico predominado basicamente por cursos de ciências de exatas.",
+            "Em uma universidade na cidade de Cornélio Procópio (estado do Paraná, no Brasil), o clube estimula cerca de dois filmes por sessão no mês no anfiteatro da universidade, normalmente seguidos de discussões entre as comunidades acadêmica e civil em volta de tópicos diversos e controversos.",
+            "Como co-founder, a contribuição realizada no clube foi por meio da fundação até a sua expansão, basicamente pelas conexões de networking que o time tinha durante o termo realizado entre 2013 e 2016. Isso resultou na criação de um spin-off na Universidade Estadual de Maringá (UEM) por um dos ex-membros, além de parcerias em festivais como o CINEURGE.",
+            "Funções desempenhadas: Co-fundador, designer, gerente, apresentador.",
+            "Ferramentas usadas: Photoshop, Illustrator, Redes Sociais."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://cineclubeutfprcp.wordpress.com",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/cineclubeutfpr",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/cineclubeutfpr",
+                "icon": "socialMediaInstagramCircleIcon"
+            },
+            {
+                "title": "News",
+                "url": "http://www.utfpr.edu.br/cornelioprocopio/estrutura-universitaria/assessorias/ascom/noticias/acervo/2013/campus-cp-realizara-o-201ccine-club-dia-do-nerd201d",
+                "icon": "newsIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "IU",
+                "title": "Interface de Usuário"
+            },
+            {
+                "abbr": "GP",
+                "title": "Gerência de Projetos"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing e Branding"
+            }
+        ],
+        "date": {
+            "start": "1367672400",
+            "end": "1467378000"
+        }
+    },
+    {
+        "id": "combtech",
+        "name": "Combtech",
+        "description": "Desenvolvimento de landing page e layout da apresentação de um curso fornecido pela empresa.",
+        "about": [
+            "Com foco na produção de impressoras 3D de baixo custo, Combtech consiste em uma startup fundada em 2015 na incubadora da Universidade Tecnológica Federal do Paraná (UTFPR). Para alcançar um melhor reconhecimento e retornar o conhecimento adquirido para outros estudantes universitários, a startup requisitou o desenvolvimento de um website para seu curso principal e também para redesenhar as apresentações da empresa em 2017.",
+            "Funções desempenhadas: Programador e designer.",
+            "Ferramentas usadas: Photoshop, Powerpoint, PHP, Materialize CSS, jQuery."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/combtech",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/combtech",
+                "icon": "socialMediaInstagramCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVW",
+                "title": "Desenvolvimento Web"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing e Branding"
+            }
+        ],
+        "date": {
+            "start": "1488373200",
+            "end": "1498827600"
+        }
+    },
+    {
+        "id": "hackathon-totvs-2015",
+        "name": "1a Hackathon TOTVS de Agronegócio",
+        "description": "Conquista do primeiro lugar com uma solução de Internet das Coisas para problemas de irrigação no campo.",
+        "about": [
+            "Realizada no centro de excelência da TOTVS em agronegócio, o evento foi um espaço propício para desenvolvimento da criatividade. Em um período ininterrupto de 30 horas de desenvolvimento de ideias, 28 participantes foram escolhidos - de um total de 128 de duas diferentes universidades locais - foram separados e tiveram o objetivo de apresentar projetos relacionados ao tema de 'Inovação em multicultivo de grãos, citrus e cana'.",
+            "Utilizando um hardware de Internet das Coisas (IoT em inglês) chamado Intel Edison e tecnologias de serviços web, nosso grupo desenvolveu uma solução de relatórios em web que oferecia a opção para fazendeiros de supervisionar seus níveis de irrigação no campo e tomar decisões baseadas nessas informações. A solução foi avaliada como a melhor, garantindo a primeira posição e ofertas de trabalho no escritório da empresa na cidade de Assis, no estado de São Paulo (Brazil).",
+            "Funções desempenhadas: Designer, desenvolvedor front-end e gestor de tarefas.",
+            "Ferramentas e metodologias usadas: Photoshop, Powerpoint, Git, PHP, jQuery, CSS, Kanban."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "News",
+                "url": "http://blogdoaluno.utfpr.edu.br/?p=8826",
+                "icon": "newsIcon"
+            },
+            {
+                "title": "Video",
+                "url": "https://www.youtube.com/watch?v=SZFEOxQFUaU",
+                "icon": "socialMediaYoutubeCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "HK",
+                "title": "Hackathon"
+            },
+            {
+                "abbr": "DVS",
+                "title": "Desenvolvimento de Software"
+            },
+            {
+                "abbr": "IU",
+                "title": "Interface de Usuário"
+            },
+            {
+                "abbr": "GP",
+                "title": "Gerência de Projetos"
+            }
+        ],
+        "date": {
+            "start": "1443877200",
+            "end": "1443981600"
+        }
+    },
+    {
+        "id": "hackathon-ecoti-2015",
+        "name": "1a Hackathon ECO.TI de Mobilidade Urbana",
+        "description": "Conquista do primeiro lugar com uma solução de Internet das Coisas fornecendo uma experiência de transporte urbano mais rápida e transparente para usuários finais e alta gerência.",
+        "about": [
+            "Em parceria com a Companhia Municipal de Trânsito e Urbanização de Londrina (no estado do Paraná - Brasil) e com a empresa de telefonia Sercomtel, a 1a Hackathon de mobilidade urbana realizada na cidade teve objetivo de melhorar o trânsito urbano e fomentar o desenvolvimento de aplicações que aprimorassem a qualidade dos serviços oferecidos aos cidadãos.",
+            "Durante um período de desenvolvimento ininterrupto de 40 horas cerca de 13 projetos foram concebidos. A primeira colocação foi alcançada por meio de um protótipo utilizando Arduino UDOO, NFC, GSM e uma combinação de aplicações web e móvel. Sintetizando, a solução no contexto geral conectava usuários finais com as equipes de gestão de trânsito.",
+            "A aplicação móvel permitia que passageiros pudessem realizar o check-in no ponto de ônibus, enquanto os motoristas teriam acesso a dados em tempo real das linhas que estivessem dirigindo, podendo realizar requisições sempre que necessário. Em contraposição, a aplicação web realizaria leituras constantes de cada ônibus a partir do GPS instalado, o qual também mapeia a rota e prevê congestionamentos em horários de pico.",
+            "Funções desempenhadas: Designer, desenvolvedor front-end e gerenciador de tarefas.",
+            "Ferramentas e metodologias usadas: Photoshop, Powerpoint, Git, PHP, jQuery, CSS, Arduino UDOO, Intel XDK, Kanban."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "News",
+                "url": "http://blogdoaluno.utfpr.edu.br/?p=9098",
+                "icon": "newsIcon"
+            },
+            {
+                "title": "Video",
+                "url": "http://g1.globo.com/pr/parana/paranatv-2edicao/videos/t/edicoes/v/conheca-projetos-tecnologicos-que-pretendem-melhorar-a-vida-nas-cidades/4701061/",
+                "icon": "tvVideoIcon"
+            },
+            {
+                "title": "News",
+                "url": "http://www.aintec.com.br/aintec/vencedores-do-hackathon-eco-ti-ganham-mentoria-e-incubacao-de-projeto-na-intuel/",
+                "icon": "newsIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "HK",
+                "title": "Hackathon"
+            },
+            {
+                "abbr": "DVS",
+                "title": "Desenvolvimento de Software"
+            },
+            {
+                "abbr": "IU",
+                "title": "Interface de Usuário"
+            },
+            {
+                "abbr": "GP",
+                "title": "Gerência de Projetos"
+            },
+            {
+                "abbr": "DM",
+                "title": "Desenvolvimento Móvel"
+            }
+        ],
+        "date": {
+            "start": "1448024400",
+            "end": "1448215200"
+        }
+    },
+    {
+        "id": "conte-um-conto",
+        "name": "Conte um Conto",
+        "description": "Projeto de voluntariado para estimular a criatividade de jovens por meio da escrita e da literatura.",
+        "about": [
+            "Fundado a partir da parceria entre o Grupo ELLP e outro grupo de voluntariado chamado Construindo Meu Castelo da cidade de Castelo (no estado do Espírito Santo - Brasil), o projeto tinha o objetivo de desenvolver leitores e escritores com senso crítico, empoderando jovens estudantes de sociedades carentes para serem protagonistas das suas próprias vidas.",
+            "A partir desse objetivo, a plataforma web foi desenvolvida para oferecer a oportunidade a jovens estudantes a escreverem suas próprias estórias e obter feedbacks de seus professores com relação aos seus erros de escrita e a evolução conforme o tempo. No fim de sua jornada, estudantes poderiam obter uma versão final de suas obras em um livro digital compilado em formato PDF. Dessa forma, esses estudantes se formariam como jovens escritores.",
+            "Com a responsibilidade de co-fundação, o trabalho realizado entre o meio de 2017 e o começo de 2018 foi de coletar requisitos e ideias para a equipe voluntária de desenvolvimento, convertendo-as por fim em tanto wireframes como no estabelecimento de parcerias com instituições para utilização dessa ferramenta nos seus sistemas educacionais.",
+            "Funções desempenhadas: Co-fundador, designer de interface e de usabilidade, desenvolvedor full stack e gerente.",
+            "Ferramentas e metodologias usadas: Photoshop, Wireframes, Git, VueJS, NodeJS, SASS, Asana, Scrum."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://cuc-front.herokuapp.com",
+                "icon": "globeIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "TV",
+                "title": "Trabalho Voluntário"
+            },
+            {
+                "abbr": "DVW",
+                "title": "Desenvolvimento Web"
+            },
+            {
+                "abbr": "IU",
+                "title": "Interface de Usuário"
+            },
+            {
+                "abbr": "EU",
+                "title": "Experiência do Usuário"
+            },
+            {
+                "abbr": "GP",
+                "title": "Gerência de Projetos"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1488373200",
+            "end": "1517317200"
+        }
+    },
+    {
+        "id": "dsv",
+        "name": "Trainee em TI pela DSV XPress",
+        "description": "Desenvolvimento de projetos de automação e ciência de dados na posição de Trainee.",
+        "about": [
+            "Empresa fundada em 1976, na pequena cidade da Dinamarca chamada Skuldelev, De Sammensluttede Vognmænd (DSV, em português Transportadores Associados) consiste em um líder mundial de transporte e logística, oferecendo e gerenciando soluções de supply chain para milhares de empresas diariamente.",
+            "Como despachante, a DSV não possui ou opera qualquer equipamento de transporte; o transporte de consumos é realizado por meio de nossa rede global de parceiros e subcontratados (transportadores aéreos, marítimos ou terrestres). Cerca de 47 000 funcionários em mais de 75 países trabalham fervorosamente para entregar experiências incríveis para clientes e serviços de alta qualidade – além de auxiliar na garantia de entrega regulares de bens para linhas de produção, lojas e consumidores por todo o mundo.",
+            "Durante meu período como Trainee em TI na divisão de Air & Sea para o departamento XPress, um rendimento de aproximadamente 2 milhões de coroas dinamarquesas foi alcançado por meio do desenvolvimento de cerca de quinze projetos de automação. Tais projetos simplificaram trabalhos diários de despachantes e assistentes administrativos. Outras contribuições relevantes foram implementadas: melhoria de performance (menos consumo de recursos e menor tempo de execuções), aprimoramento da gerência de projetos técnicos (através ferramentas e metodologias ágeis), padronização de processos e documentação (padrões de código legíveis e melhoria na entrega de manutenções), inovações ágeis e constantes (introdução de tecnologias modernas), aplicações de automação mais estáveis e confiáveis (atualização de pacote de soluções e estabelecimento de boas práticas de desenvolvimento).",
+            "Funções desempenhadas: Trainee, desenvolvedor full stack, DevOps, arquiteto de soluções.",
+            "Ferramentas e metodologias usadas: Photoshop, Pacote Office, Diagramas, Atlassian, Git, VBA, Scripts Bash Shell, .NET (Framework e Core), ReactJS, Ant Design, Python, Javascript, SQL Server, Microsoft Server 2016, Microsoft Teams, Kofax Kapow, Gerenciamento de Acesso Privilegiado (PAM)."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://www.dsv.com/",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/dsv.corporate/",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Linkedin",
+                "url": "https://www.linkedin.com/company/dsv/",
+                "icon": "socialMediaLinkedinCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVS",
+                "title": "Desenvolvimento de Software"
+            },
+            {
+                "abbr": "RPA",
+                "title": "Automação Robótica de Processos"
+            },
+            {
+                "abbr": "CD",
+                "title": "Ciência de Dados"
+            },
+            {
+                "abbr": "IU",
+                "title": "Interface de Usuário"
+            },
+            {
+                "abbr": "EU",
+                "title": "Experiência do Usuário"
+            },
+            {
+                "abbr": "GP",
+                "title": "Gerência de Projetos"
+            }
+        ],
+        "date": {
+            "start": "1531645200",
+            "end": null
+        }
+    },
+    {
+        "id": "lets-comunicacao",
+        "name": "Lets Comunicação",
+        "description": "Desenvolvimento web fullstack em diversos projetos de startups.",
+        "about": [
+            "Fundada em 2015, essa pequena agência de desenvolvimento localizada na cidade de Londrina (estado do Paraná - Brasil) tem o foco na oferta de desenvolvimento de soluções web e móveis assim como desenvolvimento de branding por meio de ações de marketing e de design. Através da combinação entre design e tecnologias de ponta, desenvolvimento de parcerias são executadas normalmente com sucesso, especialmente com startups que desejam acelerar seus MVPs (Produto Mínimo Viável, em português).",
+            "Por meio de uma atuação semi-remota como desenvolvedor full stack, implementações arquiteturais e desenvolvimento de MVPs de startups foram designados e executados durante o período de 5 meses na empresa, permitindo ter uma contribuição em três projetos: MedMobi Crônicos, AVP e Farmdome.",
+            "Além de lidar com implementações utilizando a stack baseada em Javascript, outras responsibilidades também foram designadas como: automação de deploys (CD), padronização da documentação, modularização de pacotes de forma privada.",
+            "Funções desempenhadas: Desenvolvedor full stack, DevOps, arquiteto de soluções.",
+            "Ferramentas e metodologias usadas: Redmine, Slack, Bitbucket, Git, AngularJS, LoopbackJS, SASS, Jenkins, DigitalOcean, PostgreSQL, Scrum."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://www.letscomunica.com.br/",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Linkedin",
+                "url": "https://www.linkedin.com/company/letscomunica",
+                "icon": "socialMediaLinkedinCircleIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/letscomunica",
+                "icon": "socialMediaFacebookCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVW",
+                "title": "Desenvolvimento Web"
+            },
+            {
+                "abbr": "MA",
+                "title": "Metodologias Ágeis"
+            },
+            {
+                "abbr": "EU",
+                "title": "Experiência do Usuário"
+            }
+        ],
+        "date": {
+            "start": "1514811600",
+            "end": "1530363600"
+        }
+    },
+    {
+        "id": "ligue-site",
+        "name": "Ligue Site - Unidade Cornélio Procópio",
+        "description": "Trabalho com web design, projetos de branding e coleta de requisitos com clientes.",
+        "about": [
+            "Franquia aberta em 2012, o objetivo dessa agência digital foi de desenvolver websites e redes sociais em curto prazos a baixo custo, focando em ajudar pequenas microempresas a escalar seus negócios no mundo virtual.",
+            "Além do trabalho de web designer, o trabalho também contemplava desenvolver estratégias de marketing e designs, tudo para expandir o alcance de branding das empresas. Isso demandava conquistar clientes oferecendo nossos serviços, além de mantê-los respondendo às suas perguntas e coletando requisitos para os serviços contratados em uma frequência considerável.",
+            "Funções desempenhadas: Web designer, consultor de marketing.",
+            "Ferramentas e metodologias usadas: Photoshop, Corel Draw, HTML, CSS, Javascript, Facebook Ads, Google Ads."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://www.liguesite.com.br/",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/liguesite/",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Linkedin",
+                "url": "https://www.linkedin.com/company/liguesite",
+                "icon": "socialMediaLinkedinCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVW",
+                "title": "Desenvolvimento Web"
+            },
+            {
+                "abbr": "IU",
+                "title": "Interface de Usuário"
+            },
+            {
+                "abbr": "EU",
+                "title": "Experiência do Usuário"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing e Branding"
+            }
+        ],
+        "date": {
+            "start": "1349096400",
+            "end": "1438347600"
+        }
+    },
+    {
+        "id": "password-manager",
+        "name": "Projeto de Gerenciador de Senhas",
+        "description": "Projeto de estudo para encriptação de senhas utilizando chaves simétricas AES e PBE.",
+        "about": [
+            "Projeto de segurança de TI desenvolvido no curso de bacharelado em Engenharia da Computação, cujo objetivo era desenvolver um gerenciador de senhas que utilizasse a função de derivação de chave PBKDF2 (Password-Based Key Derivation Function 2, em inglês) para cobrir totalmente possíveis cenários de segurança criptografando e decriptgrafando dados utilizando o Padrão de Criptografia Avançada (AES em inglês) sem salvar a senha do usuário dentro do banco de dados ou em arquivos do sistema.",
+            "Como prova de conceito, o projeto se aproveitou da simplicidade da linguagem Python e sua biblioteca de criptografia (pycrypto) para lidar com toda a complexidade criptográfica assim como a parte de layout, a qual é feita através de uma biblioteca que envolve estruturas em HTML diretamente dentro da biblioteca PySide QtWebKit.",
+            "Funções desempenhadas: Desenvolvedor full stack.",
+            "Ferramentas usadas: Python 2.7, htmlPy, pycrypto."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/password-manager-security-class",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVS",
+                "title": "Desenvolvimento de Software"
+            },
+            {
+                "abbr": "SST",
+                "title": "Segurança de Sistemas"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1505653200",
+            "end": "1506344400"
+        }
+    },
+    {
+        "id": "arrhythmia-ecg-recognition",
+        "name": "Projeto de Reconhecimento de Arritmias em Eletrocardiogramas",
+        "description": "Desenvolvido com Transformadas Discretas de Wavelet e ferramentas de aprendizado de máquina.",
+        "about": [
+            "Projeto de inteligência artificial desenvolvido durante o bacharelado em Engenharia da Computação com o foco em classificar arritmias cardíacas utilizando aprendizado de máquina supervisionado. Isso é realizado por meio da extração de tipos misturados de características provenientes de ondas cardíacas presentes em eletrocardiogramas (ECG). Esse processo de extração utilizou transformadas wavelet discretas para filtragem dos sinais, extraindo dados usados em uma coletânea de algoritmos de aprendizado de máquina que classificam as características exportadas junto de labels de verdadeiro e falso (contém ou não arritmias). O objetivo, no final, foi classificar pelo menos dois tipos de arritmia por meio de características extraídas utilizando os softwares Weka e MATLAB.",
+            "Com os resultados (divisão de treinamento/teste e matriz de confusão) obtidos nos testes para cada software, a extração e análise de arritmias tiveram bons resultados nos testes para o algoritmo de Máquina de Vetores de Suporte (total de 97,90%) e de Vizinhos Mais Próximos (total de 91,49%), enquanto para algoritmos de Redes Bayesianas (74,47%) e BoostedTrees (21,30%) os resultados foram piores.",
+            "Funções desempenhadas: Engenheiro de dados, desenvolvedor.",
+            "Ferramentas usadas: MATLAB R2017b, Weka 3.8.1."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/arrhythmia-ecg-analysis-ai",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVS",
+                "title": "Desenvolvimento de Software"
+            },
+            {
+                "abbr": "AM",
+                "title": "Aprendizado de Máquina"
+            },
+            {
+                "abbr": "CD",
+                "title": "Ciência de Dados"
+            },
+            {
+                "abbr": "PDS",
+                "title": "Processamento Digital de Sinais"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1494853200",
+            "end": "1508418000"
+        }
+    },
+    {
+        "id": "iot-health-control",
+        "name": "Projeto de Controle de Saúde",
+        "description": "Desenvolvido com Arduino, Bluetooth Low Energy (BLE) e um aplicativo híbrido em Ionic 2.",
+        "about": [
+            "Projeto de hardware desenvolvido no bacharelado em Engenharia da Computação focado em transmitir batimentos cardíacos por meio de um aparelho Bluetooth Low Energy (BLE) e um sensor de batimentos, além de apresentar os dados em um aplicação híbrida em Ionic 2. O objetivo final foi coletar e exibir os batimentos dos usuários com uma pulseira de saúde. Essa coleta permite, para futuros projetos, o desenvolvimento de uma mineiração de dados de saúde.",
+            "Funções desempenhadas: Desenvolvedor full stack, gerente de tarefas.",
+            "Ferramentas e metodologias usadas: Arduino, Ionic 2, NodeJS, PHP, Apache, Cordova, Módulo Bluetooth Serial HC-05."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/iot-BLE-health-control",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVS",
+                "title": "Desenvolvimento de Software"
+            },
+            {
+                "abbr": "IOT",
+                "title": "Internet das Coisas"
+            },
+            {
+                "abbr": "DM",
+                "title": "Desenvolvimento Móvel"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1472821200",
+            "end": "1481634000"
+        }
+    },
+    {
+        "id": "undergrad-thesis",
+        "name": "Classificação de questões computacionais",
+        "description": "Tese de graduação desenvolvida com o objetivo de classificar questões computacionais utilizando Processamento de Linguagem Natural (PLN).",
+        "about": [
+            "Projeto de tese de graduação com o objetivo de desenvolver e avaliar modelos de classificação de questões de computação utilizando Processamento de Linguagem Natural (NLP em inglês) e Aprendizado de Máquina como técnicas de processamento. Por meio de um contexto educacional e utilizando um aprendizado adaptativo, o trabalho apresenta uma proposta desde aquisição das questões até a aplicação de métodos de aprendizado supervisionado.",
+            "Por fim, a análise final do modelo balanceado apresentou uma média de precisão de 79% para um compilado de todos os algoritmos utilizados, além de uma precisão de 83% para o algoritmo de Redes Bayesianas Multinomiais. Além de usar o modelo final para futuras classificações de questões em um sistema adaptativo, o trabalho também desenvolveu um banco de dados com as questões extraídas e classificadas para instituições de ensino de computação.",
+            "Funções desempenhadas: Engenheiro de dados, desenvolvedor.",
+            "Ferramentas usadas: Python, Natural Language Toolkit, MongoDB."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/utfpr-ce-undergrad-final-project",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVS",
+                "title": "Desenvolvimento de Software"
+            },
+            {
+                "abbr": "CD",
+                "title": "Ciência de Dados"
+            },
+            {
+                "abbr": "AM",
+                "title": "Aprendizado de Máquina"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1472821200",
+            "end": "1481634000"
+        }
+    },
+    {
+        "id": "vscode-extension-vba-generators",
+        "name": "Extensão de Snippets em Visual Basic para Visual Studio Code",
+        "description": "Extensão com capacidade de gerar construtores, lista de atributos, singleton factories, getters e setters, a partir de uma série de propriedades internas a classes em Visual Basic.",
+        "about": [
+            "Plugin open source desenvolvido para o editor Visual Studio Code, o qual fornece geradores de código baseados em VBA para getters, setters, construtores, singleton factories baseados em declarações de variáveis.",
+            "Funções desempenhadas: Desenvolvedor.",
+            "Ferramentas usadas: Javascript, NodeJS, NPM."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://marketplace.visualstudio.com/items?itemName=davikawasaki.VBGenerators",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/vb-vscode-generators",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVS",
+                "title": "Desenvolvimento de Software"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1533560400",
+            "end": "1542114000"
+        }
+    },
+    {
+        "id": "rasp-security-vulnerability",
+        "name": "Estudo de Vulnerabilidade com Raspberry PI",
+        "description": "Projeto de hardware desenvolvido para análise de vulnerabilidade de redes usando um Raspberry PI.",
+        "about": [
+            "Projeto de segurança desenvolvido no bacharelado em Engenharia da Computação que propõe avaliar falhas em redes de Internet das Coisas (IoT em inglês), além de possíveis soluções. O projeto utilizou no protótipo um sensor DHT11 junto de um Raspberry Pi, mostrando temperaturas em tempo real em uma aplicação móvel.",
+            "Em detalhes, o projeto cobre uma rede de dispositivos IoT que utilizam transmissões HTTP entre dois modelos Raspberry Pi 3 B. Um dos Raspberry coleta a temperatura do sensor, enquanto o outro atua como um servidor web em Flask para transmitir a temperatura para dispositivos móveis. Por meio de uma aplicação web desenvolvida em VueJS 2 e um um framework em Progressive Web App (PWA), o usuário pode verificar se o outro Raspberry está em contato com fogo totalmente direto de seu dispositivo celular.",
+            "Como a segurança sempre esteve em cheque, um man-in-the-middle foi posto no meio das transmissões da rede para ler e modificar os dados coletados. A solução proposa visa combater esse man-in-the-middle para garantir a integridade e confiabilidade dos dados por meio de técnicas de criptografia. Isso fornece ao servidor a possibilidade de identificar se a(s) informação(ões) recebidas foram adulteradas por uma fonte desconhecida.",
+            "Funções desempenhadas: Desenvolvedor full stack, gerente do projeto.",
+            "Ferramentas usadas: Raspberry Pi 3 B, sensor DHT11, Python, Flask, VueJS, Wireshark, Kali Linux, WebSocket, Heroku."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/iot-security-vulnerability",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "DVS",
+                "title": "Desenvolvimento de Software"
+            },
+            {
+                "abbr": "SST",
+                "title": "Segurança de Sistemas"
+            },
+            {
+                "abbr": "DM",
+                "title": "Desenvolvimento Móvel"
+            },
+            {
+                "abbr": "IOT",
+                "title": "Internet das Coisas"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1510578000",
+            "end": "1511269200"
+        }
+    }
+]

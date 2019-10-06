@@ -1,0 +1,21 @@
+{
+    "language": "en",
+    "contact": {
+        "title": "Contact for partnerships or proposals",
+        "links": [
+            {
+                "type": "email",
+                "url": "davishinjik@gmail.com",
+                "svg": "socialMediaEmailCircleIcon"
+            },
+            {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/davikawasaki/",
+                "svg": "socialMediaLinkedinCircleIcon"
+            }
+        ]
+    },
+    "footer": {
+        "text": "© Since 2017. Made with ♥ in Denmark."
+    }
+}

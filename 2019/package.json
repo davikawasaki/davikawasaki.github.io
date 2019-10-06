@@ -1,0 +1,69 @@
+{
+  "name": "davikawasaki.github.io",
+  "description": "Portifolio website for 2019",
+  "version": "1.0.0",
+  "author": "Davi Kawasaki <davishinjik@gmail.com> (https://www.davikawasaki.com)",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.4.3",
+    "gatsby-plugin-google-analytics": "^2.1.20",
+    "gatsby-plugin-i18n": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-netlify": "^2.0.16",
+    "gatsby-plugin-offline": "^2.1.0",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.37",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-transformer-json": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.1.19",
+    "intl": "^1.2.5",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-intl": "^2.9.0",
+    "react-responsive": "^8.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scroll-parallax": "^2.1.2",
+    "styled-components": "^4.2.0",
+    "tailwind.macro": "^0.5.10",
+    "tailwindcss": "^0.7.4",
+    "typeface-cantata-one": "^0.0.72",
+    "typeface-open-sans": "^0.0.54"
+  },
+  "keywords": [
+    "gatsby",
+    "portfolio"
+  ],
+  "scripts": {
+    "dev": "gatsby develop -o",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
+    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
+    "lint:ci": "yarn lint --format junit -o results/eslint/result.xml"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-gatsby": "^0.2.8",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.17.0"
+  },
+  "repository": {
+    "url": "https://github.com/davikawasaki/davikawasaki.github.io",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/davikawasaki/davikawasaki.github.io/issues"
+  },
+  "homepage": "https://www.davikawasaki.com"
+}

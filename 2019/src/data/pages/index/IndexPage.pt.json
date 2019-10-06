@@ -1,0 +1,97 @@
+{
+    "language": "pt",
+    "header": {
+        "title": "Davi Kawasaki",
+        "subtitle": "Desenvolvimento.Web.UI.UX.DevOps.Ágil",
+        "socialMedias": [
+            {
+                "name": "medium",
+                "svg": "socialMediaMediumCircleIcon",
+                "url": "https://medium.com/@davi.kawasaki"
+            },
+            {
+                "name": "linkedin",
+                "svg": "socialMediaLinkedinCircleIcon",
+                "url": "https://www.linkedin.com/in/davikawasaki/"
+            },
+            {
+                "name": "email",
+                "svg": "socialMediaEmailCircleIcon",
+                "url": "mailto:davishinjik@gmail.com"
+            },
+            {
+                "name": "github",
+                "svg": "socialMediaGithubCircleIcon",
+                "url": "https://github.com/davikawasaki"
+            },
+            {
+                "name": "instagram",
+                "svg": "socialMediaInstagramCircleIcon",
+                "url": "https://www.instagram.com/davikawasaki/"
+            }
+        ]
+    },
+    "about": {
+        "title": "O que te mantém acordado?",
+        "description": [
+            "Fome mundial, superpopulação, acessibilidade à saúde, intolerância religiosa, altos padrões de educação. Talvez até a paz mundial? Para mim, tudo isso me incomoda e me faz questionar: o que posso fazer para auxiliar o alcance de tais desafios quase utópicos?",
+            "Na perpétua jornada de descoberta que trilho, meu constante objetivo diário sempre tem sido tentar resolver tais dilemas em uma perspectiva microscópica, descobrindo e resolvendo problemas partindo de dentro, de forma que as realizações possam aflorar para o mundo afora. Essa filosofia de vida é a que levo do meu lado pessoal para projetos profissionais, buscando o equilíbrio entre a excelência e a empatia."
+        ]
+    },
+    "curriculum": {
+        "title": "Currículo Resumido",
+        "education": {
+            "title": "Educação",
+            "svg": "graduationIcon",
+            "text": [
+                "[2014-2018] Bacharelado em Engenharia da Computação pela UTFPR, Brasil",
+                "[2010-2013] Curso técnico em Eletrotécnica pela UTFPR, Brasil"
+            ] 
+        },
+        "languages": {
+            "title": "Línguas",
+            "svg": "globeIcon",
+            "text": [
+                "Português, Nativo | Inglês, Fluente",
+                "Espanhol, Intermediário | Dinamarquês, Básico",
+                "Japonês, Básico"
+            ]
+        },
+        "work": {
+            "title": "Experiências",
+            "svg": "workIcon",
+            "text": [
+                "[2018-Now] Trainee pela DSV XPress, Dinamarca",
+                "[2018-2018] Desenvolvedor full stack pela Lets Comunicação e Desenvolvimento, Brasil",
+                "[2016-2017] Co-founder e Gerente de Design pela RAIS Saúde, Brasil",
+                "[2014-2016] Founder e Coordenador Voluntário pelo Grupo ELLP, Brasil",
+                "[2012-2015] Webdesigner pela Ligue Site Cornélio Procópio, Brasil"
+            ]
+        },
+        "awards": {
+            "title": "Experiences",
+            "svg": "ribbonIcon",
+            "text": [
+                "[2017] Aluno Destaque 2017 do Rotary Club na área de Engenharia da Computação em Cornélio Procópio, Brasil",
+                "[2015] 1o lugar na Hackathon TOTVS de Agronegócio em Assis, Brasil",
+                "[2015] 1o lugar na Hackathon de Mobilidade Urbana em Londrina, Brasil"
+            ]
+        }
+    },
+    "projects": {
+        "title": "Projetos",
+        "anchorTitles": "Leia mais..."
+    },
+    "blog": {
+        "title": "Leia minhas últimas postagens",
+        "anchorTitles": "Leia mais...",
+        "moreTitles": "Mais posts em",
+        "links": [
+            {
+                "name": "medium",
+                "svg": "socialMediaMediumCircleIcon",
+                "url": "https://medium.com/@davi.kawasaki"
+            }
+        ]
+    }
+}

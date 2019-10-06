@@ -1,0 +1,14 @@
+{
+    "language": "pt",
+    "header": {
+        "title": "Projeto A",
+        "subtitle": "Breve descrição a respeito do Projeto A"
+    },
+    "about": {
+        "title": "Sobre o Projeto A"
+    },
+    "gallery": {
+        "title": "Destaques do Projeto",
+        "subtitle": "Algumas imagens desse projeto"
+    }
+}

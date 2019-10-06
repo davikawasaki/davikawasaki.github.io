@@ -1,0 +1,971 @@
+[
+    {
+        "id": "ellp",
+        "name": "ELLP Group",
+        "description": "Co-founding and management of this technology education group.",
+        "about": [
+            "The group is composed of university students ecstatic about technology and open to offer voluntary education classes from specific technological themes to other exact science topics.",
+            "Leveraging ludic and practical classes, our students can learn some advanced topics through practice, always with the help of a voluntary teacher. In this way, both parties can have a good and fun time, where knowledge can be spread and impact communities.",
+            "Being a founder of the group in 2012 and ending my participation in the end of 2016, several topics were developed and achieved. Starting from teaching the platform Kodu Game Lab to a single class of 6 primary school students, the group has evolved to semiannual diverse technological topic-related classes with more than 50 students and still persists nowadays with different students from all different social backgrounds.",
+            "Contributing with teaching and management of the group projects, me and the other co-founders were able to be recognized in August 2015 by the Mapa Educação movement as one of the 100th best projects with capacity to impact and change the brazilian education.",
+            "Roles: Founder, manager, teacher, designer.",
+            "Teaching tools: Kodu Game Lab, Lego Mindstorms, MIT Scratch, MIT App Inventor."
+        ],
+        "gallery": [
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_mapa_educacao_2015_banner.jpg",
+                "about": "Banner presentation of ELLP Group activities at the 1st Mapa Educação Conference in 2015. In the conference, ELLP Group was awarded as one of the 100 best projects capable of changing the brazilian education."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_mapa_educacao_2015_folheto.jpg",
+                "about": "Booklet in portuguese with all groups details at the 1st Mapa Educação Conference in 2015. In the conference, ELLP Group was awarded as one of the 100 best projects capable of changing the brazilian education."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_membros_2016_geral.jpg",
+                "about": "Group ELLP integration ceremony for the 2016/2017 direction members."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_castro_2016_aula.jpg",
+                "about": "Kodu Game Lab workshop presented in 2016 for Castro Alves public school in the city of Cornélio Procópio - Brazil."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_castro_2016_geral.jpg",
+                "about": "Students and voluntary teachers main photo from Kodu Game Lab and Lego Mindstorms workshops presented in 2016 for Castro Alves public school in the city of Cornélio Procópio - Brazil."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_dia_criancas_2016_ensino.jpg",
+                "about": "Ludic activity performed in 2016 at a special Children's Day workshop. This happened for the NGO Cantinho da Criança in the city of Santa Mariana - Brazil."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_dia_criancas_2016_geral.jpg",
+                "about": "Students and voluntary teachers main photo from a special Children's Day workshop performed in 2016. This happened for the NGO Cantinho da Criança in the city of Santa Mariana - Brazil."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_ong_livre_para_amar_aula_2016_geral.jpg",
+                "about": "Students and voluntary teachers main photo from Lego Mindstorms workshop presented in 2016 for NGO Livre para Amar in the city of Cornélio Procópio - Brazil."
+            },
+            {
+                "parentFolders": "projects/ellp/",
+                "id": "ellp_oficina_ong_livre_para_amar_aula_2016_lego.jpg",
+                "about": "Lego Mindstorms workshop presented in 2016 for NGO Livre para Amar in the city of Cornélio Procópio - Brazil."
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "http://grupoellp.com.br/",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/grupoellp",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/grupoellp",
+                "icon": "socialMediaInstagramCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "VW",
+                "title": "Voluntary Work"
+            },
+            {
+                "abbr": "EP",
+                "title": "Education and Pedagogy"
+            },
+            {
+                "abbr": "WD",
+                "title": "Website Development"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing and Branding"
+            }
+        ],
+        "date": {
+            "start": "1414760400",
+            "end": "1483228799"
+        }
+    },
+    {
+        "id": "rais",
+        "name": "RAIS Health",
+        "description": "Co-founding, design management and full stack development for this health care startup.",
+        "about": [
+            "With a vision to transform positively people and the world with transparency in health data, RAIS Health had the goal of solving unsatisfactory health documentation history, which is normally accumulated in piles of paper.",
+            "Through the promotion of a health ecosystem development, the startup aimed to store and share digitally the patient health history with health professionals in a symbiotic way, as well as provide an integrated system for doctors' appointment digital scheduling.",
+            "Roles: Co-founder, designer, full stack developer.",
+            "Tech stack: Photoshop, Office Tools, Spring MVC, AngularJS, Ionic, SASS, Gulp, Karma, Jasmine, PostgreSQL, MySQL, Docker, Microservices, Azure Apps, Azure VSTS, AWS S3, AWS EC2, AWS Cloudfront, AWS Pipeline, OAuth, Scrum, DAD, Git."
+        ],
+        "gallery": [
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_home_page_2016.png",
+                "about": "Landing page developed for RAIS Consultas app (in Android and AngularJS) disclosure."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_escola_patologia_portal_2016.png",
+                "about": "Webpage developed for Pathology School courses' disclosure and subscriptions in 2016."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_equipe_geral_dev.jpg",
+                "about": "General photo from development team together with startup founders."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_wireframe_draw.jpg",
+                "about": "Wireframe drawn by hand for the medical appointment mobile application with screens' fluxogram."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_prontuarios_prescricoes_wireframe_draw_2016.jpg",
+                "about": "Wireframe drawn by hand for the medical appointment mobile application with prescriptions and medical records' screens."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_web_clinica_agenda_consulta_confirmada.png",
+                "about": "Screen with medical appointment confirmation for the RAIS Consultas web application developed in AngularJS."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_web_clinica_agenda_consulta_detalhes.png",
+                "about": "Screen with appointment details for the RAIS Consultas web application developed in AngularJS."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_web_clinica_agenda_medico_atendimentos.png",
+                "about": "Screen with medical schedule availability modification for the RAIS Consultas web application developed in AngularJS."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_login_photoshop_2016.jpg",
+                "about": "Login screen demo developed in Photoshop for the RAIS Consultas mobile application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_pagamento_paciente_photoshop_2016.jpg",
+                "about": "Payment options screen demo developed in Photoshop for the RAIS Consultas mobile application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_pagamentos_photoshop_2016.jpg",
+                "about": "Payment history screen demo developed in Photoshop for the RAIS Consultas mobile application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_consulta_requisitada_ionic_2016.png",
+                "about": "Required appointment screen developed in Ionic for the RAIS Consultas mobile application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_home_ionic_2016.png",
+                "about": "Patients homepage screen developed in Ionic for the RAIS Consultas mobile application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_agenda_paciente_cancelamento_ionic_2016.png",
+                "about": "Appointments cancelation from patients screen developed in Ionic for the RAIS Consultas mobile application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_agenda_medico_opcoes_ionic_2016.png",
+                "about": "Screen of doctor agenda edition options developed in Ionic for the RAIS Consultas mobile application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_agenda_medico_consulta_ionic_2016.png",
+                "about": "Screen of appointment confirmation and cancelation options in a doctor agenda developed in Ionic for the RAIS Consultas mobile application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_consultas_app_agenda_medico_consulta_cancelamento_ionic_2016.png",
+                "about": "Screen of appointment cancelation options in a doctor agenda developed in Ionic for the RAIS Consultas mobile application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_pharma_dashboard_wireframe_draw.jpg",
+                "about": "Dashboard wireframe drawn by hand for the RAIS Pharma web application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_pharma_dashboard_wireframe_draw.jpg",
+                "about": "Dashboard wireframe developed in Photoshop for the RAIS Pharma web application."
+            },
+            {
+                "parentFolders": "projects/rais/",
+                "id": "rais_pharma_home_page_photoshop.jpg",
+                "about": "Homepage demo developed in Photoshop for the RAIS Pharma website."
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://raislife.com",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/raisdata/",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/rais.life/",
+                "icon": "socialMediaInstagramCircleIcon"
+            },
+            {
+                "title": "Website",
+                "url": "https://web.archive.org/web/20170908213959/http://www.escoladepatologia.com:80/",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Linkedin",
+                "url": "https://www.linkedin.com/company/raislife",
+                "icon": "socialMediaLinkedinCircleIcon"
+            },
+            {
+                "title": "Website",
+                "url": "https://web.archive.org/web/20180321103809/https://raislife.com/consultas/",
+                "icon": "globeIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "SW",
+                "title": "Software Work"
+            },
+            {
+                "abbr": "WD",
+                "title": "Website Development"
+            },
+            {
+                "abbr": "UI",
+                "title": "User Interface"
+            },
+            {
+                "abbr": "PM",
+                "title": "Project Management"
+            },
+            {
+                "abbr": "UX",
+                "title": "User Experience"
+            },
+            {
+                "abbr": "AD",
+                "title": "Agile Development"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing and Branding"
+            },
+            {
+                "abbr": "MD",
+                "title": "Mobile Development"
+            }
+        ],
+        "date": {
+            "start": "1451653200",
+            "end": "1498914000"
+        }
+    },
+    {
+        "id": "komunhao",
+        "name": "Komunhão Bookstore",
+        "description": "Freelance branding and marketing work for Christian bookstore.",
+        "about": [
+            "With God’s mission of people’s lives edification through Christian literature, Komunhão is a family-managed bookstore that offers a variety of evangelical bibles, books and many other life-changing items since 2015 in the city of Cornélio Procópio, state of Paraná (in Brazil).",
+            "For this freelance project, the contribution was executed from 2015 to 2018 with marketing and branding jobs, mainly focused on social media posts and campaigns. By virtue of my digital design knowledge, all branding materials were developed, from business cards, posters and social media posts.",
+            "Roles: Marketing consultant, designer.",
+            "Tech stack: Photoshop, Illustrator, Social Media, Google Ads, Facebook Ads."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "http://www.komunhao.com.br",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/komunhaolivraria/",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/komunhaolivraria/",
+                "icon": "socialMediaInstagramCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "UI",
+                "title": "User Interface"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing and Branding"
+            }
+        ],
+        "date": {
+            "start": "1434805200",
+            "end": "1546300799"
+        }
+    },
+    {
+        "id": "utfpr-movie-club",
+        "name": "UTFPR Movie Club",
+        "description": "Co-founding of a movie club in my high school and continued it through university undergraduation term.",
+        "about": [
+            "Founded in the towel celebration date exhibiting Star Wars: A New Hope and Blade Runner, this club has the goal to be not a simplistic cinema group.",
+            "Totally opposed to the Fight Club ideals, the foundation on May 25th 2013 had roots on enabling discussions of the 7th art in an academic environment dominated mainly by exact science stuff.",
+            "In a university located in the city of Cornélio Procópio (Brazil), the club fomented around two movie sessions per month in the university amphitheater, normally holding discussions between the academic and city community around the most diverse and contentious topics.",
+            "As a co-founder, the contribution for the club was done from the scaffolding to the expansion, mainly due to the network connections the membership team had through 2013 to 2016 term. This meant the creation of a spin-off in Maringá State University (UEM, in portuguese) by one of our ex-members, as well as partnership in some festivals such as CINEURGE.",
+            "Roles: Co-founder, designer, manager, keynote speaker.",
+            "Tech stack: Photoshop, Illustrator, Social Media."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://cineclubeutfprcp.wordpress.com",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/cineclubeutfpr",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/cineclubeutfpr",
+                "icon": "socialMediaInstagramCircleIcon"
+            },
+            {
+                "title": "News",
+                "url": "http://www.utfpr.edu.br/cornelioprocopio/estrutura-universitaria/assessorias/ascom/noticias/acervo/2013/campus-cp-realizara-o-201ccine-club-dia-do-nerd201d",
+                "icon": "newsIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "UI",
+                "title": "User Interface"
+            },
+            {
+                "abbr": "PM",
+                "title": "Project Management"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing e Branding"
+            }
+        ],
+        "date": {
+            "start": "1367672400",
+            "end": "1467378000"
+        }
+    },
+    {
+        "id": "combtech",
+        "name": "Combtech",
+        "description": "Website development and presentation branding elaboration.",
+        "about": [
+            "Focused on producing 3D printers with low costs, Combtech is a startup founded in 2015 in the Incubator of the Federal Technological University of Paraná (UTFPR, in portuguese). In order to expand its recognition and to return the knowledge acquired to the university academic students, the company asked to develop a website for its main course and redesign the company’s presentations in 2017.",
+            "Roles: Developer and designer.",
+            "Tech stack: Photoshop, Powerpoint, PHP, Materialize CSS, jQuery."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/combtech",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/combtech",
+                "icon": "socialMediaInstagramCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "WD",
+                "title": "Website Development"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing and Branding"
+            }
+        ],
+        "date": {
+            "start": "1488373200",
+            "end": "1498827600"
+        }
+    },
+    {
+        "id": "hackathon-totvs-2015",
+        "name": "I TOTVS Agribusiness Hackathon",
+        "description": "1st place using an IoT solution for meadow irrigation issues.",
+        "about": [
+            "Realized in TOTVS agribusiness excellence center, the event was a space prone to creativity. In a non-interrupted idea development time of 30 hours, the 28 coding marathon selected participants (from a total of 128 from two different local universities) were separated and had the goal to present projects related to the theme: 'Innovation in multicultivation for grains, citrus and sugar cane'.",
+            "Using the Intel Edison embedded IoT hardware and web service technologies, our group developed a web-based report solution that enabled farmers to keep track of their field irrigation levels and take action upon those information. This solution granted us the first position on the hackathon and job offers in the company’s branch office in the city of Assis, in the state of São Paulo (Brazil).",
+            "Roles: Designer, front-end developer and task manager.",
+            "Tech stack: Photoshop, Powerpoint, Git, PHP, jQuery, CSS, Kanban."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "News",
+                "url": "http://blogdoaluno.utfpr.edu.br/?p=8826",
+                "icon": "newsIcon"
+            },
+            {
+                "title": "Video",
+                "url": "https://www.youtube.com/watch?v=SZFEOxQFUaU",
+                "icon": "socialMediaYoutubeCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "HK",
+                "title": "Hackathon"
+            },
+            {
+                "abbr": "SP",
+                "title": "Software Project"
+            },
+            {
+                "abbr": "UI",
+                "title": "User Interface"
+            },
+            {
+                "abbr": "PM",
+                "title": "Project Management"
+            }
+        ],
+        "date": {
+            "start": "1443877200",
+            "end": "1443981600"
+        }
+    },
+    {
+        "id": "hackathon-ecoti-2015",
+        "name": "I ECO.TI Urban Mobility Hackathon",
+        "description": "1st place using an IoT solution to provide a faster and more transparent transportation experience for users and management.",
+        "about": [
+            "In partner to Londrina city (state of Paraná in Brazil) traffic and urbanization institution and telephony company Sercomtel, the 1st urban mobility hackathon realized in the city had the goal of improving urban mobility and foment the development of applications that enhance the services provided to citizens.",
+            "In a non-interrupted idea development time of 40 hours around 13 projects were developed, from which our group got the first position. Leveraging Arduino UDOO hardware NFC and GSM features and a combination of web and mobile applications, our solution managed to offer a solution that connected end users and the traffic management.",
+            "In the mobile application, passengers could check-in at the bus stop, whilst bus drivers would've access to real live data for the bus line they are driving to issue requests whenever necessary. Meanwhile, the web application would constantly have readings from each bus installed GPS, which maps the route and foresees traffic jams at rush hours.",
+            "Roles: Designer, front-end developer and task manager.",
+            "Tech stack: Photoshop, Powerpoint, Git, PHP, jQuery, CSS, Arduino UDOO, Intel XDK, Kanban."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "News",
+                "url": "http://blogdoaluno.utfpr.edu.br/?p=9098",
+                "icon": "newsIcon"
+            },
+            {
+                "title": "Video",
+                "url": "http://g1.globo.com/pr/parana/paranatv-2edicao/videos/t/edicoes/v/conheca-projetos-tecnologicos-que-pretendem-melhorar-a-vida-nas-cidades/4701061/",
+                "icon": "tvVideoIcon"
+            },
+            {
+                "title": "News",
+                "url": "http://www.aintec.com.br/aintec/vencedores-do-hackathon-eco-ti-ganham-mentoria-e-incubacao-de-projeto-na-intuel/",
+                "icon": "newsIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "HK",
+                "title": "Hackathon"
+            },
+            {
+                "abbr": "SP",
+                "title": "Software Project"
+            },
+            {
+                "abbr": "UI",
+                "title": "User Interface"
+            },
+            {
+                "abbr": "PM",
+                "title": "Project Management"
+            },
+            {
+                "abbr": "MD",
+                "title": "Mobile Development"
+            }
+        ],
+        "date": {
+            "start": "1448024400",
+            "end": "1448215200"
+        }
+    },
+    {
+        "id": "conte-um-conto",
+        "name": "Conte um Conto (Small Storytelling)",
+        "description": "Voluntary work project to nurture kids creativity and writing capabilities.",
+        "about": [
+            "Created from a partnership between ELLP Group and another voluntary group called Construindo Meu Castelo from the city of Castelo (Espírito Santo, Brazil), the project had the goal of developing portuguese readers and writers with a critical sense, empowering young students from low-income society to be a leading figure of their own lives.",
+            "From that goal, a web-based platform was developed to allow young students to write their own stories and get feedback from their teachers regarding their writing errors and evolution. At the end of their journey, students could get a final PDF version of their writings compiled into a digital book, graduating them as young writers.",
+            "As a co-founder, the work from the middle of 2017 to the beginning of 2018 was to gather requirements and ideas for the voluntary development team, convert the ideas into wireframes as well as establish partnerships with institutions to use this tool in their education systems.",
+            "Roles: Co-founder, designer UI/UX, full stack developer and manager.",
+            "Tech stack: Photoshop, Wireframes, Git, VueJS, NodeJS, SASS, Asana, Scrum."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://cuc-front.herokuapp.com",
+                "icon": "globeIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "VW",
+                "title": "Voluntary Work"
+            },
+            {
+                "abbr": "SP",
+                "title": "Software Project"
+            },
+            {
+                "abbr": "UI",
+                "title": "User Interface"
+            },
+            {
+                "abbr": "UX",
+                "title": "User Experience"
+            },
+            {
+                "abbr": "PM",
+                "title": "Project Management"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1488373200",
+            "end": "1517317200"
+        }
+    },
+    {
+        "id": "dsv",
+        "name": "DSV Air & Seas",
+        "description": "Trainee work with projects IT-related such as automation and data science.",
+        "about": [
+            "Founded in 1976, in the small town of Skuldelev in Denmark, De Sammensluttede Vognmænd (DSV, in english The Consolidated Hauliers) is a world-leading supplier of transport and logistics, providing and managing supply chain solutions for thousands of companies every day.",
+            "As a freight forwarder, DSV does not own or operate transport equipment; actual transportation of goods is carried out via our global network of partners and subcontractors (carriers and hauliers). 47,000 employees in more than 75 countries work passionately to deliver great customer experiences and high-quality services – and help ensure a steady supply of goods to production lines, outlets, stores and consumers all over the world.",
+            "Working as an IT trainee in the company’s Air & Sea division for the XPress department, a revenue of approximately two million danish krones was achieved through the development of around 15 automation projects, which simplified freight forwarders and administrative employees daily jobs. Besides that achievement, other relevant contributions to the local department were executed, such as: efficiency improvement on projects (less resources and faster execution time), better organization of technical tasks and processes (using modern and agile tools), standardization of processes and documentation (more comprehensible code patterns and faster maintenance deliverables), agile and constant innovations (modern technology implementation), more stable and reliable automation applications (update from outdated solution stack and establishment of best practices).",
+            "Roles: Trainee, full stack developer, DevOps, solutions architect.",
+            "Tech stack: Photoshop, Office Stack, Diagram, Atlassian Stack, Git, VBA, Bash Shell Scripts, .NET (Framework and Core), ReactJS, Ant Design, Python, Javascript, SQL Server, Microsoft Server 2016, Microsoft Teams, Kofax Kapowl, PAM Access Management."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://www.dsv.com/",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/dsv.corporate/",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Linkedin",
+                "url": "https://www.linkedin.com/company/dsv/",
+                "icon": "socialMediaLinkedinCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "SW",
+                "title": "Software Work"
+            },
+            {
+                "abbr": "RPA",
+                "title": "Robotics Process Automation"
+            },
+            {
+                "abbr": "DS",
+                "title": "Data Science"
+            },
+            {
+                "abbr": "UI",
+                "title": "User Interface"
+            },
+            {
+                "abbr": "UX",
+                "title": "User Experience"
+            },
+            {
+                "abbr": "PM",
+                "title": "Project Management"
+            }
+        ],
+        "date": {
+            "start": "1531645200",
+            "end": null
+        }
+    },
+    {
+        "id": "lets-comunicacao",
+        "name": "Lets Comunicação",
+        "description": "IT internship working with startup projects as full stack webdeveloper.",
+        "about": [
+            "Founded in 2015, this small agency located in the city of Londrina (state of Paraná, Brazil) is focused in offering web/mobile development solutions as well as branding development through marketing and design. Combining cutting-edge technology with design, partnership developments are normally performed successfully, especially with startups that wants to speed up their MVP bootstraps.",
+            "With the role of a semi-remote full stack developer, architectural implementations and full startup MVPs projects development were designated and performed in the five months term inside the agency, which allowed to contribute in three projects: MedMobi Crônicos, AVP and Farmdome.",
+            "Besides dealing with code implementation with a Javascript-base stack, responsibilities such as continuous deploy, code document standardization and modularization of proprietary libraries as private ones were issued and delivered for the working term.",
+            "Roles: Full stack developer, DevOps, solutions architect.",
+            "Tech stack: Redmine, Slack, Bitbucket, Git, AngularJS, LoopbackJS, SASS, Jenkins, DigitalOcean, PostgreSQL."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://www.letscomunica.com.br/",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Linkedin",
+                "url": "https://www.linkedin.com/company/letscomunica",
+                "icon": "socialMediaLinkedinCircleIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/letscomunica",
+                "icon": "socialMediaFacebookCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "WD",
+                "title": "Web Development"
+            },
+            {
+                "abbr": "AD",
+                "title": "Agile Development"
+            },
+            {
+                "abbr": "UX",
+                "title": "User Experience"
+            }
+        ],
+        "date": {
+            "start": "1514811600",
+            "end": "1530363600"
+        }
+    },
+    {
+        "id": "ligue-site",
+        "name": "Ligue Site - Cornélio Procópio Unity",
+        "description": "Working with web development and branding projects.",
+        "about": [
+            "Franchise branch opened in 2012, this digital agency goal was to develop websites and social medias in short periods of time for low prices, focusing on helping smaller entreprises scale their business on the web.",
+            "Besides working as a web designer, the role in this job also contemplated developing marketing strategies and designs, in order to expand the companies branding reach. That demanded beforehand selling our services to customers, besides attending to their inquiries and gathering requirements for the hired services on a constant basis.",
+            "Roles: Web designer, Marketing consultant.",
+            "Tech stack: Photoshop, Corel Draw, HTML, CSS, Javascript, Facebook Ads, Google Ads."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://www.liguesite.com.br/",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/liguesite/",
+                "icon": "socialMediaFacebookCircleIcon"
+            },
+            {
+                "title": "Linkedin",
+                "url": "https://www.linkedin.com/company/liguesite",
+                "icon": "socialMediaLinkedinCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "WD",
+                "title": "Website Development"
+            },
+            {
+                "abbr": "UI",
+                "title": "User Interface"
+            },
+            {
+                "abbr": "UX",
+                "title": "User Experience"
+            },
+            {
+                "abbr": "MB",
+                "title": "Marketing and Branding"
+            }
+        ],
+        "date": {
+            "start": "1349096400",
+            "end": "1438347600"
+        }
+    },
+    {
+        "id": "password-manager",
+        "name": "Passwork Manager Project",
+        "description": "Password manager project developed with symmetric AES keys and PBE.",
+        "about": [
+            "Security project developed through undergraduate course focused on developing a password manager that leverages the Password-Based Key Derivation Function 2 (PBKDF2) to provide a full-covered scenarios to encrypt and decrypt data using Advanced Encryption Standard (AES) crypto cipher without storing the user’s password into a database or files.",
+            "As a proof of concept, the project took advantage of Python code simplicity and its pycrypto library to handle all the cryptography part, as well as the application design part, which uses a library that wrappers HTML web pages structures directly inside PySide‘s QtWebKit library.",
+            "Roles: Full stack developer.",
+            "Tech stack: Python 2.7, htmlPy, pycrypto."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/password-manager-security-class",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "SW",
+                "title": "Software Work"
+            },
+            {
+                "abbr": "SCP",
+                "title": "Security Project"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1505653200",
+            "end": "1506344400"
+        }
+    },
+    {
+        "id": "arrhythmia-ecg-recognition",
+        "name": "Arrhythmia ECG Recognition Project",
+        "description": "Arrhythmia ECG recognition project developed with discrete wavelet transform and machine learning tools.",
+        "about": [
+            "Artificial intelligence project developed through undergraduate course focused on cardiac arrhythmia classification using supervised machine learning. This is done through extraction of mixed types of heart waves characteristics from electrocardiograms (ECG) using discrete wavelet transform to filter the signal. The exported data was used in a list machine learning algorithms classifying the exported characteristics with classes/true labels. The goal, in the end, was to classify at least two arrhythmia through some extracted characteristics using the softwares Weka and MATLAB.",
+            "With the evaluation test (split instances and confusion matrix) results for each software, the ECG arrhythmia extraction and analysis were well evaluated on testing for the Support-vector machine (97,90%) and k-nearest neighbors (91,49%) algorithms, while for the Naive Bayes (74,47%) and BoostedTrees (21,30%) algorithms the results were the worst ones.",
+            "Roles: Data Engineer, Developer.",
+            "Tech stack: MATLAB R2017b, Weka 3.8.1."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/arrhythmia-ecg-analysis-ai",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "SW",
+                "title": "Software Work"
+            },
+            {
+                "abbr": "ML",
+                "title": "Machine Learning"
+            },
+            {
+                "abbr": "DS",
+                "title": "Data Science"
+            },
+            {
+                "abbr": "DSP",
+                "title": "Digital Signal Processing"
+            }
+        ],
+        "date": {
+            "start": "1494853200",
+            "end": "1508418000"
+        }
+    },
+    {
+        "id": "iot-health-control",
+        "name": "Internet of Things (IoT) Health Control Project",
+        "description": "Health control project developed with Arduino, BLE and an Ionic 2 application.",
+        "about": [
+            "Hardware project developed through undergraduate course focused on transmitting heartbeats through an Internet of Things (IoT) bluetooth low energy (BLE) with heart beat sensor, and displaying the data in a hybrid Ionic 2 app. The final goal was to collect and display the heartbeat of users with a health band. This gathering allows, for future projects, the possibility to start a small health data mining.",
+            "Roles: Full stack developer, Task manager.",
+            "Tech stack: Arduino, Ionic 2, NodeJS, PHP, Apache, Cordova, Bluetooth Serial Module HC-05."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/iot-BLE-health-control",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "SW",
+                "title": "Software Work"
+            },
+            {
+                "abbr": "IOT",
+                "title": "Internet of Things"
+            },
+            {
+                "abbr": "MD",
+                "title": "Mobile Development"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1472821200",
+            "end": "1481634000"
+        }
+    },
+    {
+        "id": "undergrad-thesis",
+        "name": "Computer theme questions classification",
+        "description": "Undergraduation thesis with the goal to classify computer theme questions using Natural Language Processing (NLP).",
+        "about": [
+            "Undergraduate thesis project aimed to develop and evaluate classification models of computer knowledge questions, using Natural-Language Processing (NLP) and Machine Learning (ML) as processing techniques. Through an educational context and adaptive learning usage, the work develops an approach that goes from questions acquisition to the realization of supervised learning methods.",
+            "Ultimately, the final balanced model analysis presented a precision average of 79% for all algorithm methods and a precision of 83% for Multinomial Naive Bayes algorithm. Besides using output model for future questions classification in an adaptive system, the work also managed to make a question database available with extracted and classified questions for computer teaching institutions.",
+            "Roles: Data Engineer, Developer.",
+            "Tech stack: Python, Natural Language Toolkit, MongoDB."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/utfpr-ce-undergrad-final-project",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "SW",
+                "title": "Software Work"
+            },
+            {
+                "abbr": "DS",
+                "title": "Data Science"
+            },
+            {
+                "abbr": "ML",
+                "title": "Machine Learning"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1472821200",
+            "end": "1481634000"
+        }
+    },
+    {
+        "id": "vscode-extension-vba-generators",
+        "name": "Visual Studio Code Extension for VBA Generators",
+        "description": "VS Code extension to generate constructors, attributes list, singleton factories, getters and setters, from the declaration of VB class properties.",
+        "about": [
+            "Open source plugin extension developed for Visual Studio Code editor that provides VBA-based generators for getters, setters, constructors, singleton factories based on class variable declarations.",
+            "Roles: Developer.",
+            "Tech stack: Javascript, NodeJS, NPM."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://marketplace.visualstudio.com/items?itemName=davikawasaki.VBGenerators",
+                "icon": "globeIcon"
+            },
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/vb-vscode-generators",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "SW",
+                "title": "Software Work"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1533560400",
+            "end": "1542114000"
+        }
+    },
+    {
+        "id": "rasp-security-vulnerability",
+        "name": "Raspberry PI Vulnerability Study Project",
+        "description": "Hardware project developed to analyse Raspberry PI network vulnerability.",
+        "about": [
+            "Security project developed through undergraduate course proposes a weakness evaluation in Internet of Things (IoT) network of devices and possible solutions. As a proof of concept, this project uses a DHT11 sensor with Raspberry Pi, showing real-time temperatures in a mobile application.",
+            "In detail, the project covers an IoT devices network using HTTP transmission between two Raspberry Pi 3 B model. One of the Rasps collects the sensor temperature and the other one acts like a webserver with Flask to provide the temperature data to a mobile device. Through the mobile application developed with VueJS 2 and PWA boilerplate, the user can check if there's a fire directly from his/her phone.",
+            "As security will be in check, network transmissions will always have a Darth reading and modifying the collected data. The proposed solution aims to fight Darth (not Vader, but as evil as him) to ensure data integrity and confidentiality through cryptography techniques. This will provide the server to identify if the received information was tampered or from an unknown source.",
+            "Roles: Full stack developer, Project manager.",
+            "Tech stack: Raspberry Pi 3 B, DHT11 sensor, Python, Flask, VueJS, Wireshark, Kali Linux, WebSocket, Heroku."
+        ],
+        "gallery": [],
+        "links": [
+            {
+                "title": "Github",
+                "url": "https://github.com/davikawasaki/iot-security-vulnerability",
+                "icon": "socialMediaGithubCircleIcon"
+            }
+        ],
+        "categories": [
+            {
+                "abbr": "SW",
+                "title": "Software Work"
+            },
+            {
+                "abbr": "SCP",
+                "title": "Security Project"
+            },
+            {
+                "abbr": "MD",
+                "title": "Mobile Development"
+            },
+            {
+                "abbr": "IOT",
+                "title": "Internet of Things"
+            },
+            {
+                "abbr": "OS",
+                "title": "Open Source"
+            }
+        ],
+        "date": {
+            "start": "1510578000",
+            "end": "1511269200"
+        }
+    }
+]

@@ -1,0 +1,97 @@
+{
+    "language": "en",
+    "header": {
+        "title": "Davi Kawasaki",
+        "subtitle": "Web.Development.UI.UX.DevOps.Agile",
+        "socialMedias": [
+            {
+                "name": "medium",
+                "svg": "socialMediaMediumCircleIcon",
+                "url": "https://medium.com/@davi.kawasaki"
+            },
+            {
+                "name": "linkedin",
+                "svg": "socialMediaLinkedinCircleIcon",
+                "url": "https://www.linkedin.com/in/davikawasaki/"
+            },
+            {
+                "name": "email",
+                "svg": "socialMediaEmailCircleIcon",
+                "url": "mailto:davishinjik@gmail.com"
+            },
+            {
+                "name": "github",
+                "svg": "socialMediaGithubCircleIcon",
+                "url": "https://github.com/davikawasaki"
+            },
+            {
+                "name": "instagram",
+                "svg": "socialMediaInstagramCircleIcon",
+                "url": "https://www.instagram.com/davikawasaki/"
+            }
+        ]
+    },
+    "about": {
+        "title": "What concerns you?",
+        "description": [
+            "Global hunger, overpopulation, health attainability, religious intolerance, high education standards. Maybe global peace? For me all of that fidgets me to the bones, making me wonder: what can I do to assist in the achievement of such pseudo-utopic defiances?",
+            "In the everlasting discovery journey that I hike, my daily constant goal has been always trying to tackle such entanglements on a microscopical level, figuring out and solving problems from within, so that the accomplishments can outcrop to the outside. This philosophy of life is what I take from my personal life to my professional projects, seeking for a balance between excellence and empathy."
+        ]
+    },
+    "curriculum": {
+        "title": "Brief Portifolio",
+        "education": {
+            "title": "Education",
+            "svg": "graduationIcon",
+            "text": [
+                "[2014-2018] Bachelors in Computer Engineering coursed in UTFPR, Brazil",
+                "[2010-2013] Technical in Electrotechnics coursed in UTFPR, Brazil"
+            ] 
+        },
+        "languages": {
+            "title": "Languages",
+            "svg": "globeIcon",
+            "text": [
+                "Portuguese, Native | English, Fluent",
+                "Spanish, Intermediary | Danish, Basics",
+                "Japanese, Basics"
+            ]
+        },
+        "work": {
+            "title": "Experiences",
+            "svg": "workIcon",
+            "text": [
+                "[2018-Now] Trainee at DSV XPress, Denmark",
+                "[2018-2018] Full stack developer at Lets Comunicação e Desenvolvimento, Brazil",
+                "[2016-2017] Co-founder and Design Manager at RAIS Health, Brazil",
+                "[2014-2016] Founder and Voluntary Coordinator at ELLP Group, Brazil",
+                "[2012-2015] Webdesigner at Ligue Site Cornélio Procópio, Brazil"
+            ]
+        },
+        "awards": {
+            "title": "Experiences",
+            "svg": "ribbonIcon",
+            "text": [
+                "[2017] Rotary Club Recognition for Best Computer Engineering Student in Cornélio Procópio, Brazil",
+                "[2015] 1st place, TOTVS Agrobusiness Hackathon in Assis, Brazil",
+                "[2015] 1st place, Urban Mobility Hackathon in Londrina, Brazil"
+            ]
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "anchorTitles": "Read more..."
+    },
+    "blog": {
+        "title": "Check my latest blog posts",
+        "anchorTitles": "Read more...",
+        "moreTitles": "More posts at",
+        "links": [
+            {
+                "name": "medium",
+                "svg": "socialMediaMediumCircleIcon",
+                "url": "https://medium.com/@davi.kawasaki"
+            }
+        ]
+    }
+}
