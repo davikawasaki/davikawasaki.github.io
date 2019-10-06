@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"description\" on type \"PagesJsonAbout\".","locations":[{"line":14,"column":11}]},{"message":"Cannot query field \"allProjectsEnJson\" on type \"Query\". Did you mean \"allProjectsPtBrJson\", \"projectsPtBrJson\", or \"allPagesJson\"?","locations":[{"line":40,"column":3}]}]}
