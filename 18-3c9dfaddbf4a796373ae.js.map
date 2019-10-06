@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/images/favicons/android-chrome-512x512.png"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"18-3c9dfaddbf4a796373ae.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/android-chrome-512x512-ae3dc5b23e8885e31d1e01130d877ab9.png\";"],"sourceRoot":""}

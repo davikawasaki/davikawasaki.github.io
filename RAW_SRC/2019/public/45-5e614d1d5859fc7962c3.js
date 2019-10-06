@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[45],{326:function(a,n,p){a.exports=p.p+"static/rais_consultas_app_consulta_requisitada_ionic_2016-b7c46a87e325ca5fa8f9d0888044156f.png"}}]);
-//# sourceMappingURL=45-5e614d1d5859fc7962c3.js.map

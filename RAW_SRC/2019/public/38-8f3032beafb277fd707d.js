@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[38],{319:function(o,c,n){o.exports=n.p+"static/komunhao_postb_redes_sociais_ano_novo_2018-c3208d49d1039d931142cbcb7c121976.jpg"}}]);
-//# sourceMappingURL=38-8f3032beafb277fd707d.js.map

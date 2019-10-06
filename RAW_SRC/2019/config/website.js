@@ -17,7 +17,7 @@ module.exports = {
   userTwitter: '@davikawasaki', // Twitter Username
   ogSiteName: 'davi.kawasaki', // Facebook Site Name
   ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: 'UA-149333222-1-5',
+  googleAnalyticsID: 'UA-149333222-1',
 
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,

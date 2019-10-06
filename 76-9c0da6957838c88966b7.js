@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[76],{304:function(e,n){throw new Error('Module parse failed: Unexpected token (1:7)\nYou may need an appropriate loader to handle this file type.\n> {"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}')}}]);
+//# sourceMappingURL=76-9c0da6957838c88966b7.js.map

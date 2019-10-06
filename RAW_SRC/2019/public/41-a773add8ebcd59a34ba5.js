@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[41],{322:function(n,c,a){n.exports=a.p+"static/rais_consultas_app_agenda_medico_consulta_cancelamento_ionic_2016-8b12df4b5cf0949b54c9d86ffe68888d.png"}}]);
-//# sourceMappingURL=41-a773add8ebcd59a34ba5.js.map

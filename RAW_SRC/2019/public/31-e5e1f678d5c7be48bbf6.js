@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[31],{312:function(a,p,e){a.exports=e.p+"static/ellp_oficina_ong_livre_para_amar_aula_2016_lego-64b67cd82c9d219d9fde3e1695b7095e.jpg"}}]);
-//# sourceMappingURL=31-e5e1f678d5c7be48bbf6.js.map

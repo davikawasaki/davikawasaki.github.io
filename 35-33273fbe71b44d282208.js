@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[35],{316:function(o,p,a){o.exports=a.p+"static/komunhao_cartaz_A3_15x10_2017-7f1b27b4f348b388cd0982f04034319a.jpg"}}]);
-//# sourceMappingURL=35-33273fbe71b44d282208.js.map

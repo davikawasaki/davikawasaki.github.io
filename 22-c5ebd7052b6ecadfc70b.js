@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{303:function(c,o,e){c.exports=e.p+"static/favicon-4f0139ec4efa97e61a4e139ddc38f637.ico"}}]);
+//# sourceMappingURL=22-c5ebd7052b6ecadfc70b.js.map

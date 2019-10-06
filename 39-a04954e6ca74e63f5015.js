@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[39],{321:function(o,a,c){o.exports=c.p+"static/komunhao_capa_facebook_natal_2017-b337249b34f3219451012e7c62c28c43.jpg"}}]);
+//# sourceMappingURL=39-a04954e6ca74e63f5015.js.map
