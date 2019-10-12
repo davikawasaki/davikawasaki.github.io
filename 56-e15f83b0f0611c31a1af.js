@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[56],{338:function(p,a,s){p.exports=s.p+"static/rais_consultas_app_prontuarios_prescricoes_wireframe_draw_2016-d6239eb886c59b374400ec209f17caab.jpg"}}]);
-//# sourceMappingURL=56-e15f83b0f0611c31a1af.js.map

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[66],{348:function(p,a,o){p.exports=o.p+"static/rais_pharma_home_page_photoshop-da99e73172059da9dce1d91f50a9c691.jpg"}}]);
-//# sourceMappingURL=66-e26e3a736e67bd62bc40.js.map

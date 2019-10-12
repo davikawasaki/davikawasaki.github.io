@@ -7,8 +7,8 @@ import { FilterTag } from '../elements/FilterTag'
 
 const DivRoot = styled.div`
 	${tw`p-2 md:p-4 lg:p-12 justify-center items-center z-50 h-auto relative`};
-	// background: linear-gradient(to right,deepskyblue 0%,slateblue 100%);
-	margin-top: -8%; z-index: 1;
+	// background: linear-gradient(to right, deepskyblue 0%, slateblue 100%);
+	z-index: 1;
     &:after {
         content: '';
         display: block;
@@ -32,10 +32,10 @@ const DivCategoriesGallery = styled.div`
 
 const TextParallax = styled(Parallax)`
 	${tw`inline-block text-justify z-50 w-full relative px-8 text-lg`}
-	margin-bottom: 10rem;
-	@media (max-width: 600px) { 
-		margin-bottom: 15rem;
-	}
+	margin-bottom: 5rem;
+	// @media (max-width: 600px) { 
+	// 	margin-bottom: 15rem;
+	// }
 `
 
 class AboutProject extends Component {
@@ -70,7 +70,7 @@ class AboutProject extends Component {
 							})
 						}
 					</DivCategoriesGallery>
-					<TextParallax y={[0, 30]}>
+					<TextParallax y={[0, 0]}>
 						{this.state.text.map((line, i) => (
 							<p key={`about-project-line-${i}`}>{line}</p>
 						))}

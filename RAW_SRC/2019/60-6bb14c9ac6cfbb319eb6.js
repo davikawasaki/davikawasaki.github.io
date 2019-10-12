@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[60],{345:function(o,p,a){o.exports=a.p+"static/rais_escola_patologia_portal_2016-080db0b19569a842172790976f147e8e.png"}}]);
+//# sourceMappingURL=60-6bb14c9ac6cfbb319eb6.js.map

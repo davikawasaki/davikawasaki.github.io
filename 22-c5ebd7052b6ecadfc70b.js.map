@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/images/favicons/favicon.ico"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"22-c5ebd7052b6ecadfc70b.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/favicon-4f0139ec4efa97e61a4e139ddc38f637.ico\";"],"sourceRoot":""}

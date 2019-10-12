@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[35],{317:function(c,e,a){c.exports=a.p+"static/ellp_oficina_dia_criancas_2016_geral-6e5e5ce66049ed5cac2d593297b6177e.jpg"}}]);
-//# sourceMappingURL=35-035f42d5964a199c26a7.js.map

@@ -3,11 +3,14 @@ import React from 'react'
 import Header from '../components/Header'
 import Helmet from 'react-helmet'
 import { BrowserRouter as Router } from 'react-router-dom'
-import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
+import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n'
 import { StaticQuery, graphql } from "gatsby"
-import { IntlProvider } from 'react-intl';
+import { IntlProvider } from 'react-intl'
 import GlobalStyles from '../styles/global'
-import 'intl';
+import 'intl'
+import favicon16 from "../images/favicons/favicon-16x16.png"
+import favicon32 from "../images/favicons/favicon-32x32.png"
+import favicon64 from "../images/favicons/android-chrome-192x192.png"
 
 const Layout = ({ children, location, i18nMessages, title }) => {
   return (
@@ -48,6 +51,11 @@ const Layout = ({ children, location, i18nMessages, title }) => {
                   meta={[
                     { name: 'description', content: 'Davi Kawasaki website portifolio with projects and contact for hire.' },
                     { name: 'keywords', content: 'davi kawasaki, web development, portifolio' },
+                  ]}
+                  link={[
+                    { rel: 'icon', type: 'image/png', sizes: "16x16", href: `${favicon16}` },
+                    { rel: 'icon', type: 'image/png', sizes: "32x32", href: `${favicon32}` },
+                    { rel: 'shortcut icon', type: 'image/png', href: `${favicon64}` },
                   ]}
                 />
                 <Header title={title || "Davi.Kawasaki - Web Development and Engineering Solutions"} langs={langsMenu} actualLang={langKey}/>

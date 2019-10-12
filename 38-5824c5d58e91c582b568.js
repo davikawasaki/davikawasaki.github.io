@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[38],{320:function(c,n,o){c.exports=o.p+"static/komunhao_banner_divulgacao_2014-dc8cf8316a5b08744e0c6fc35deb805c.jpg"}}]);
-//# sourceMappingURL=38-5824c5d58e91c582b568.js.map

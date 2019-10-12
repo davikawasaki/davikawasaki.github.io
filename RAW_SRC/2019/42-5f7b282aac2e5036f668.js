@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[42],{327:function(o,s,n){o.exports=n.p+"static/komunhao_posts_redes_sociais_ano_novo_2017-bdeda006749c8fcbfd8893420c18ed21.jpg"}}]);
+//# sourceMappingURL=42-5f7b282aac2e5036f668.js.map

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[54],{336:function(p,o,a){p.exports=a.p+"static/rais_consultas_app_pagamento_paciente_photoshop_2016-b4b3b14e84c4253df2024390f12f100e.jpg"}}]);
-//# sourceMappingURL=54-8bcba2f0772ae0f1a77a.js.map

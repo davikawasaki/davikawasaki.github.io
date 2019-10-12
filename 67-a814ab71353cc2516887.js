@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[67],{349:function(e,c,p){e.exports=p.p+"static/cineclube_dezembro_2014-e0244e0665791c9cfa7be7fb68997e10.jpg"}}]);
-//# sourceMappingURL=67-a814ab71353cc2516887.js.map

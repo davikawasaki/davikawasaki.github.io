@@ -25,7 +25,7 @@ const DivRoot = styled.div`
 
 const ContentWrapper = styled.div`
     ${tw`justify-center items-center lg:flex mt-8`}
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 `
 
 const Avatar = styled.img`
@@ -60,7 +60,7 @@ const TitleBlock = styled.h1`
 `
 
 const TextBlock = styled.p`
-    ${tw`text-xs sm:text-xs md:text-base lg:text-lg`}
+    ${tw`text-xs sm:text-base md:text-base lg:text-lg`}
 `
 
 const AboutHome = ({ title, text }) => {

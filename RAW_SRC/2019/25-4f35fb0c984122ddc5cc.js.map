@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/images/projects/dsv/MicrosoftTeams-image.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"25-4f35fb0c984122ddc5cc.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/MicrosoftTeams-image-8da83aa317b5203e5eb009d6beda44a1.jpg\";"],"sourceRoot":""}

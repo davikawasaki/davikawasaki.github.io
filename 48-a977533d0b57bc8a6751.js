@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[48],{330:function(a,n,c){a.exports=c.p+"static/rais_consultas_app_agenda_medico_consulta_ionic_2016-8cdfadcd6de1367bb6a7a67abb8e67af.png"}}]);
-//# sourceMappingURL=48-a977533d0b57bc8a6751.js.map

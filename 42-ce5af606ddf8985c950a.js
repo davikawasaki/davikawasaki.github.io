@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[42],{324:function(c,o,p){c.exports=p.p+"static/komunhao_post_redes_sociais_natal_2017-367c0cc2695131da603fbf6bccc6f981.jpg"}}]);
-//# sourceMappingURL=42-ce5af606ddf8985c950a.js.map
