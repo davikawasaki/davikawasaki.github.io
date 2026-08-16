@@ -1,6 +1,7 @@
 .DS_Store
 node_modules/
 dist/
+.astro/
 RAW_SRC/2019/public/
 npm-debug.log*
 yarn-debug.log*
@@ -9,6 +10,8 @@ test/unit/coverage
 test/e2e/reports
 selenium-debug.log
 .cache
+.env
+.env.production
 
 # Editor directories and files
 .idea
@@ -19,3 +22,6 @@ selenium-debug.log
 *.sln
 
 sass
+
+# Personal resume export - contains phone number, not for publishing
+linkedin.pdf

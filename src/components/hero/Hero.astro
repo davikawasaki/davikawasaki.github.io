@@ -1,0 +1,54 @@
+---
+import { getLangFromUrl, useTranslations, localizePath } from '../../i18n/utils';
+import Button from '../shared/Button.astro';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section class="hero-section relative overflow-hidden">
+  <div class="hero-glow" aria-hidden="true"></div>
+
+  <div class="relative mx-auto flex min-h-screen max-w-4xl flex-col items-center justify-center px-5 pt-28 pb-24 text-center sm:px-8">
+    <span
+      class="inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-xs font-semibold tracking-wide backdrop-blur"
+      style="border-color: var(--color-border); background-color: var(--color-surface-2); color: var(--color-accent);"
+    >
+      <span class="size-1.5 rounded-full" style="background-color: var(--color-accent);"></span>
+      {t('hero.badge')}
+    </span>
+
+    <h1
+      class="font-display mt-6 text-5xl font-extrabold tracking-tight sm:text-6xl md:text-7xl"
+      style="color: var(--color-text);"
+    >
+      {t('hero.headline')}
+    </h1>
+
+    <p class="mt-6 max-w-2xl text-balance text-lg sm:text-xl" style="color: var(--color-text-muted);">
+      {t('hero.subhead')}
+    </p>
+
+    <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
+      <Button href={localizePath('/resume', lang)} variant="solid" size="lg">
+        {t('hero.ctaPrimary')}
+      </Button>
+      <Button href={localizePath('/projects', lang)} variant="outline" size="lg">
+        {t('hero.ctaSecondary')} &rarr;
+      </Button>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero-section {
+    background-color: var(--color-bg);
+    transition: background-color 0.2s ease;
+  }
+
+  .hero-glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(124, 58, 237, 0.55), transparent 70%);
+  }
+</style>

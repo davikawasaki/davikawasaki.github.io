@@ -1,0 +1,121 @@
+---
+import { getLangFromUrl, useTranslations, localizePath } from '../../i18n/utils';
+import LangSwitch from './LangSwitch.astro';
+import ThemeToggle from './ThemeToggle.astro';
+import MobileMenu from './MobileMenu.astro';
+
+interface Props {
+  transparent?: boolean;
+}
+const { transparent = false } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const navItems = [
+  { href: localizePath('/', lang), label: t('nav.home') },
+  { href: localizePath('/projects', lang), label: t('nav.projects') },
+  { href: localizePath('/blog', lang), label: t('nav.blog') },
+  { href: localizePath('/resume', lang), label: t('nav.resume') },
+  { href: localizePath('/contact', lang), label: t('nav.contact') },
+];
+
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<header id="site-header" data-transparent={transparent ? 'true' : 'false'} class="fixed inset-x-0 top-0 z-50">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
+    <a href={localizePath('/', lang)} class="header-logo font-display text-lg font-bold tracking-tight">
+      Davi Kawasaki
+    </a>
+
+    <nav class="hidden items-center gap-1 md:flex" aria-label="Primary">
+      {
+        navItems.map((item) => {
+          const active = item.href === currentPath;
+          return (
+            <a
+              href={item.href}
+              class:list={['header-link rounded-full px-3.5 py-2 text-sm font-medium transition-colors', { 'is-active': active }]}
+              aria-current={active ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          );
+        })
+      }
+    </nav>
+
+    <div class="flex items-center gap-2">
+      <div class="hidden sm:block">
+        <LangSwitch />
+      </div>
+      <div class="header-toggle">
+        <ThemeToggle />
+      </div>
+      <button
+        id="mobile-menu-trigger"
+        type="button"
+        class="header-toggle grid size-9 place-items-center rounded-full border border-[var(--color-border)] md:hidden"
+        aria-label={t('nav.menu')}
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <path d="M4 7h16M4 12h16M4 17h16"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <MobileMenu navItems={navItems} currentPath={currentPath} />
+</header>
+
+<style>
+  #site-header {
+    background-color: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    transition:
+      background-color 0.25s ease,
+      border-color 0.25s ease;
+  }
+
+  .header-logo,
+  .header-link {
+    color: var(--color-text);
+  }
+
+  .header-link:hover {
+    color: var(--color-accent);
+  }
+
+  .header-link.is-active {
+    color: var(--color-accent);
+  }
+
+  .header-toggle :global(button) {
+    border-color: var(--color-border);
+    color: var(--color-text);
+  }
+
+  #site-header[data-transparent='true']:not(.is-scrolled) {
+    background-color: transparent;
+    border-bottom-color: transparent;
+  }
+</style>
+
+<script>
+  function initHeader() {
+    const header = document.getElementById('site-header');
+    if (!header || header.dataset.transparent !== 'true') return;
+
+    const onScroll = () => {
+      header.classList.toggle('is-scrolled', window.scrollY > 40);
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+
+  initHeader();
+  document.addEventListener('astro:after-swap', initHeader);
+</script>

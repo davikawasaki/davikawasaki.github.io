@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import ProjectCard from '../cards/ProjectCard.astro';
+import { getLangFromUrl, useTranslations, localizePath } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const allProjects = await getCollection('projects', ({ data }) => data.lang === lang && data.featured);
+const projects = allProjects.sort((a, b) => a.data.order - b.data.order).slice(0, 4);
+---
+
+<section class="mx-auto max-w-6xl px-5 py-20 sm:px-8">
+  <div class="flex flex-wrap items-end justify-between gap-4">
+    <div class="max-w-2xl">
+      <h2 class="font-display text-3xl font-bold" style="color: var(--color-text);">{t('projects.title')}</h2>
+      <p class="mt-2" style="color: var(--color-text-muted);">{t('projects.subtitle')}</p>
+    </div>
+    <a href={localizePath('/projects', lang)} class="text-sm font-semibold" style="color: var(--color-accent);">
+      {t('projects.viewAll')} &rarr;
+    </a>
+  </div>
+
+  <div class="mt-10 grid gap-6 sm:grid-cols-2">
+    {
+      projects.map((project) => (
+        <ProjectCard
+          href={localizePath(`/projects/${project.data.slug}`, lang)}
+          title={project.data.title}
+          summary={project.data.summary}
+          company={project.data.company}
+          tags={project.data.tags}
+        />
+      ))
+    }
+  </div>
+</section>

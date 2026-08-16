@@ -1,0 +1,100 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Badge from '../components/shared/Badge.astro';
+import { getLangFromUrl, useTranslations, localizePath } from '../i18n/utils';
+
+interface Props {
+  title: string;
+  summary: string;
+  company: string;
+  role: string;
+  dateStart: string;
+  dateEnd: string | null;
+  tags: string[];
+  techStack: string[];
+  links: { label: string; url: string }[];
+}
+
+const { title, summary, company, role, dateStart, dateEnd, tags, techStack, links } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+function formatDate(value: string) {
+  const [y, m] = value.split('-').map(Number);
+  return new Date(y, (m ?? 1) - 1).toLocaleDateString(lang === 'pt' ? 'pt-BR' : 'en-US', {
+    month: 'short',
+    year: 'numeric',
+  });
+}
+
+const dateRange = `${formatDate(dateStart)} — ${dateEnd ? formatDate(dateEnd) : t('resume.present')}`;
+---
+
+<BaseLayout title={`${title} — Davi Kawasaki`} description={summary}>
+  <article class="mx-auto max-w-4xl px-5 py-16 sm:px-8">
+    <a
+      href={localizePath('/projects', lang)}
+      class="mb-8 inline-flex items-center gap-1 text-sm font-medium"
+      style="color: var(--color-text-muted);"
+    >
+      &larr; {t('projects.backToProjects')}
+    </a>
+
+    <div class="flex flex-wrap gap-2">
+      {tags.map((tag) => <Badge>{tag}</Badge>)}
+    </div>
+
+    <h1 class="font-display mt-4 text-3xl font-bold sm:text-4xl" style="color: var(--color-text);">
+      {title}
+    </h1>
+
+    <dl class="mt-6 grid grid-cols-2 gap-x-6 gap-y-3 border-y py-6 text-sm sm:grid-cols-3" style="border-color: var(--color-border);">
+      <div>
+        <dt class="font-bold" style="color: var(--color-text-muted);">{t('projects.company')}</dt>
+        <dd style="color: var(--color-text);">{company}</dd>
+      </div>
+      <div>
+        <dt class="font-bold" style="color: var(--color-text-muted);">{t('projects.role')}</dt>
+        <dd style="color: var(--color-text);">{role}</dd>
+      </div>
+      <div class="col-span-2 sm:col-span-1">
+        <dt class="font-bold" style="color: var(--color-text-muted);">{t('projects.timeline')}</dt>
+        <dd style="color: var(--color-text);">{dateRange}</dd>
+      </div>
+      {
+        links.length > 0 && (
+          <div class="col-span-2 sm:col-span-1">
+            <dt class="font-medium" style="color: var(--color-text-muted);">{t('projects.links')}</dt>
+            <dd class="flex flex-col gap-1">
+              {links.map((link) => (
+                <a href={link.url} target="_blank" rel="noopener noreferrer" style="color: var(--color-accent);">
+                  {link.label}
+                </a>
+              ))}
+            </dd>
+          </div>
+        )
+      }
+    </dl>
+
+    <div class="prose-body mt-8 max-w-none">
+      <slot />
+    </div>
+
+    {
+      techStack.length > 0 && (
+        <div class="mt-10 border-t pt-6" style="border-color: var(--color-border);">
+          <p class="mb-3 text-sm font-medium" style="color: var(--color-text-muted);">
+            {t('projects.stack')}
+          </p>
+          <div class="flex flex-wrap gap-2">
+            {techStack.map((tech) => (
+              <Badge>{tech}</Badge>
+            ))}
+          </div>
+        </div>
+      )
+    }
+  </article>
+</BaseLayout>

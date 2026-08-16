@@ -1,0 +1,171 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Badge from '../../components/shared/Badge.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import {
+  experience,
+  education,
+  certifications,
+  languageProficiency,
+  skillGroups,
+  earlierVentures,
+  location,
+} from '../../data/experience';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const locale = lang === 'pt' ? 'pt-BR' : 'en-US';
+
+function formatDate(value: string) {
+  const [y, m] = value.split('-').map(Number);
+  return new Date(y, (m ?? 1) - 1).toLocaleDateString(locale, { month: 'short', year: 'numeric' });
+}
+---
+
+<BaseLayout title={`${t('resume.title')} — Davi Kawasaki`} description={t('resume.subtitle')}>
+  <section class="mx-auto max-w-4xl px-5 py-20 sm:px-8">
+    <div class="max-w-2xl">
+      <h1 class="font-display text-4xl font-bold" style="color: var(--color-text);">{t('resume.title')}</h1>
+      <p class="mt-3 text-lg" style="color: var(--color-text-muted);">{t('resume.subtitle')}</p>
+      <p class="mt-2 text-sm" style="color: var(--color-text-muted);">{location}</p>
+    </div>
+
+    <!-- Experience -->
+    <div class="mt-16">
+      <h2 class="font-display text-2xl font-bold" style="color: var(--color-text);">{t('resume.experience')}</h2>
+      <ol class="mt-8 space-y-10 border-l pl-8" style="border-color: var(--color-border);">
+        {
+          experience.map((job) => (
+            <li class="relative">
+              <span
+                class="absolute -left-[calc(2rem+5px)] top-1.5 size-2.5 rounded-full"
+                style="background-color: var(--color-accent);"
+              />
+              <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                <h3 class="font-display text-lg font-bold" style="color: var(--color-text);">
+                  {job.role[lang]} · {job.company}
+                </h3>
+                <span class="text-sm font-medium" style="color: var(--color-text-muted);">
+                  {formatDate(job.start)} — {job.end ? formatDate(job.end) : t('resume.present')}
+                </span>
+              </div>
+              <p class="mt-0.5 text-sm" style="color: var(--color-text-muted);">{job.location} · {job.mode[lang]}</p>
+              <ul class="mt-3 list-disc space-y-1.5 pl-5 text-sm leading-relaxed" style="color: var(--color-text-muted);">
+                {job.bullets.map((bullet) => (
+                  <li>{bullet[lang]}</li>
+                ))}
+              </ul>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+
+    <!-- Education & Certifications -->
+    <div class="mt-16 grid gap-12 sm:grid-cols-2">
+      <div>
+        <h2 class="font-display text-2xl font-bold" style="color: var(--color-text);">{t('resume.education')}</h2>
+        <ul class="mt-6 space-y-5">
+          {
+            education.map((item) => (
+              <li>
+                <p class="font-semibold" style="color: var(--color-text);">
+                  {item.degree[lang]}
+                </p>
+                <p class="text-sm" style="color: var(--color-text-muted);">
+                  {item.school} · {item.period}
+                </p>
+              </li>
+            ))
+          }
+        </ul>
+
+        <h2 class="font-display mt-10 text-2xl font-bold" style="color: var(--color-text);">
+          {t('resume.certifications')}
+        </h2>
+        <ul class="mt-6 space-y-2">
+          {
+            certifications.map((cert) => (
+              <li class="text-sm" style="color: var(--color-text-muted);">
+                {cert[lang]}
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="font-display text-2xl font-bold" style="color: var(--color-text);">{t('resume.languages')}</h2>
+        <ul class="mt-6 space-y-2">
+          {
+            languageProficiency.map((item) => (
+              <li class="flex items-center justify-between text-sm" style="color: var(--color-text-muted);">
+                <span>{item.language[lang]}</span>
+                <span class="font-medium" style="color: var(--color-text);">
+                  {item.level[lang]}
+                </span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="mt-16">
+      <h2 class="font-display text-2xl font-bold" style="color: var(--color-text);">{t('resume.skills')}</h2>
+      <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          skillGroups.map((group) => (
+            <div>
+              <h3 class="text-sm font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">
+                {group.title[lang]}
+              </h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                {group.items.map((item) => (
+                  <Badge>{item}</Badge>
+                ))}
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Earlier ventures -->
+    <div class="mt-16">
+      <h2 class="font-display text-2xl font-bold" style="color: var(--color-text);">{t('resume.earlier')}</h2>
+      <ul class="mt-6 divide-y divide-[var(--color-border)]">
+        {
+          earlierVentures.map((venture) => (
+            <li class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 py-4">
+              <div>
+                {venture.url ? (
+                  <a
+                    href={venture.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-semibold hover:underline"
+                    style="color: var(--color-text);"
+                  >
+                    {venture.title}
+                  </a>
+                ) : (
+                  <p class="font-semibold" style="color: var(--color-text);">
+                    {venture.title}
+                  </p>
+                )}
+                <p class="mt-0.5 text-sm" style="color: var(--color-text-muted);">
+                  {venture.description[lang]}
+                </p>
+              </div>
+              <span class="text-xs font-medium whitespace-nowrap" style="color: var(--color-text-muted);">
+                {venture.period}
+              </span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,67 @@
+---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<button
+  id="theme-toggle"
+  type="button"
+  aria-label={t('nav.theme')}
+  class="grid size-9 shrink-0 place-items-center rounded-full border border-[var(--color-border)] text-[var(--color-text)] transition-colors hover:bg-[var(--color-surface-2)]"
+>
+  <svg
+    id="icon-sun"
+    class="hidden size-4.5"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <circle cx="12" cy="12" r="4"></circle>
+    <path
+      d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
+    ></path>
+  </svg>
+  <svg
+    id="icon-moon"
+    class="hidden size-4.5"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+  </svg>
+</button>
+
+<script>
+  function currentTheme(): 'light' | 'dark' {
+    return document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+  }
+
+  function syncIcons() {
+    const theme = currentTheme();
+    document.getElementById('icon-sun')?.classList.toggle('hidden', theme !== 'dark');
+    document.getElementById('icon-moon')?.classList.toggle('hidden', theme === 'dark');
+  }
+
+  function initThemeToggle() {
+    syncIcons();
+    const btn = document.getElementById('theme-toggle');
+    btn?.addEventListener('click', () => {
+      const next = currentTheme() === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem('theme', next);
+      syncIcons();
+    });
+  }
+
+  initThemeToggle();
+  document.addEventListener('astro:after-swap', initThemeToggle);
+</script>

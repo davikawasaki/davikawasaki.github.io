@@ -1,0 +1,38 @@
+---
+import { languages, type Lang } from '../../i18n/ui';
+import { getAlternateLocalePath, getLangFromUrl } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const codes = Object.keys(languages) as Lang[];
+---
+
+<div data-lang-switch class="flex items-center rounded-full border border-[var(--color-border)] p-0.5 text-xs font-semibold">
+  {
+    codes.map((code) => (
+      <a
+        href={getAlternateLocalePath(Astro.url, code)}
+        class:list={[
+          'rounded-full px-2.5 py-1 uppercase transition-colors',
+          code === lang
+            ? 'bg-[var(--color-accent)] text-[var(--color-accent-foreground)]'
+            : 'text-[var(--color-text-muted)] hover:text-[var(--color-text)]',
+        ]}
+        aria-current={code === lang ? 'true' : undefined}
+      >
+        {code}
+      </a>
+    ))
+  }
+</div>
+
+<script>
+  const SCROLL_RATIO_KEY = 'lang-switch-scroll-ratio';
+
+  document.querySelectorAll<HTMLAnchorElement>('[data-lang-switch] a').forEach((link) => {
+    link.addEventListener('click', () => {
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      const ratio = maxScroll > 0 ? window.scrollY / maxScroll : 0;
+      sessionStorage.setItem(SCROLL_RATIO_KEY, String(ratio));
+    });
+  });
+</script>

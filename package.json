@@ -1,0 +1,39 @@
+{
+  "name": "davikawasaki.com",
+  "description": "Personal site and portfolio of Davi Kawasaki",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "author": "Davi Kawasaki <davishinjik@gmail.com> (https://davikawasaki.com)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@astrojs/mdx": "^7.0.5",
+    "@astrojs/rss": "^4.0.11",
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
+    "@fontsource/open-sans": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.1.6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.2"
+  },
+  "repository": {
+    "url": "https://github.com/davikawasaki/davikawasaki.github.io",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/davikawasaki/davikawasaki.github.io/issues"
+  },
+  "homepage": "https://davikawasaki.com",
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

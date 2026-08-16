@@ -1,0 +1,59 @@
+---
+import LangSwitch from './LangSwitch.astro';
+
+interface NavItem {
+  href: string;
+  label: string;
+}
+interface Props {
+  navItems: NavItem[];
+  currentPath: string;
+}
+const { navItems, currentPath } = Astro.props;
+---
+
+<div
+  id="mobile-menu"
+  class="hidden border-t md:hidden"
+  style="background-color: var(--color-bg); border-color: var(--color-border);"
+>
+  <nav class="flex flex-col gap-1 px-5 py-4" aria-label="Mobile">
+    {
+      navItems.map((item) => (
+        <a
+          href={item.href}
+          class="rounded-lg px-3 py-2.5 text-base font-medium"
+          style={`color: ${item.href === currentPath ? 'var(--color-accent)' : 'var(--color-text)'}`}
+        >
+          {item.label}
+        </a>
+      ))
+    }
+    <div class="mt-3 border-t pt-3" style="border-color: var(--color-border);">
+      <LangSwitch />
+    </div>
+  </nav>
+</div>
+
+<script>
+  function initMobileMenu() {
+    const trigger = document.getElementById('mobile-menu-trigger');
+    const menu = document.getElementById('mobile-menu');
+    if (!trigger || !menu) return;
+
+    trigger.addEventListener('click', () => {
+      const isHidden = menu.classList.toggle('hidden');
+      trigger.setAttribute('aria-expanded', String(!isHidden));
+    });
+
+    menu.querySelectorAll('a').forEach((a) =>
+      a.addEventListener('click', () => {
+        menu.classList.add('hidden');
+        trigger.setAttribute('aria-expanded', 'false');
+      })
+    );
+  }
+
+  initMobileMenu();
+  document.addEventListener('astro:after-swap', initMobileMenu);
+</script>
