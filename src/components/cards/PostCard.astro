@@ -1,0 +1,29 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  pubDate: Date;
+  locale: string;
+}
+const { href, title, description, pubDate, locale } = Astro.props;
+---
+
+<a
+  href={href}
+  class="post-card flex flex-col gap-2 rounded-2xl border p-6 transition-all hover:-translate-y-0.5"
+  style="border-color: var(--color-border); background-color: var(--color-surface);"
+>
+  <time class="text-xs font-medium" style="color: var(--color-text-muted);" datetime={pubDate.toISOString()}>
+    {pubDate.toLocaleDateString(locale, { dateStyle: 'medium' })}
+  </time>
+  <h3 class="font-display text-lg font-bold" style="color: var(--color-text);">{title}</h3>
+  <p class="text-sm leading-relaxed" style="color: var(--color-text-muted);">{description}</p>
+</a>
+
+<style>
+  .post-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 12px 30px -18px rgba(124, 58, 237, 0.35);
+  }
+</style>

@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/hero/Hero.astro';
+import AboutTeaser from '../components/sections/AboutTeaser.astro';
+import Skills from '../components/sections/Skills.astro';
+import FeaturedProjects from '../components/sections/FeaturedProjects.astro';
+import LatestPosts from '../components/sections/LatestPosts.astro';
+import ContactCta from '../components/sections/ContactCta.astro';
+---
+
+<BaseLayout
+  title="Davi Kawasaki — Cloud & Platform Engineer"
+  description="Senior Cloud & Platform Engineer specializing in Terraform, Kubernetes, GitOps, GCP and AWS."
+  transparentHeader
+>
+  <Hero />
+  <AboutTeaser />
+  <Skills />
+  <FeaturedProjects />
+  <LatestPosts />
+  <ContactCta />
+</BaseLayout>

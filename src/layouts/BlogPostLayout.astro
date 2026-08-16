@@ -1,0 +1,48 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Badge from '../components/shared/Badge.astro';
+import { getLangFromUrl, useTranslations, localizePath } from '../i18n/utils';
+
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  tags: string[];
+}
+
+const { title, description, pubDate, updatedDate, tags } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const locale = lang === 'pt' ? 'pt-BR' : 'en-US';
+---
+
+<BaseLayout title={`${title} — Davi Kawasaki`} description={description}>
+  <article class="mx-auto max-w-4xl px-5 py-16 sm:px-8">
+    <a
+      href={localizePath('/blog', lang)}
+      class="mb-8 inline-flex items-center gap-1 text-sm font-medium"
+      style="color: var(--color-text-muted);"
+    >
+      &larr; {t('blog.backToBlog')}
+    </a>
+
+    <div class="flex flex-wrap gap-2">
+      {tags.map((tag) => <Badge>{tag}</Badge>)}
+    </div>
+
+    <h1 class="font-display mt-4 text-3xl font-bold sm:text-4xl" style="color: var(--color-text);">
+      {title}
+    </h1>
+
+    <p class="mt-3 text-sm" style="color: var(--color-text-muted);">
+      <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString(locale, { dateStyle: 'long' })}</time>
+      {updatedDate && <> &middot; updated {updatedDate.toLocaleDateString(locale, { dateStyle: 'long' })}</>}
+    </p>
+
+    <div class="prose-body mt-8 max-w-none">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>

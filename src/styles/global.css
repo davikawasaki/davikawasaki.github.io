@@ -1,0 +1,120 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/plus-jakarta-sans';
+@import '@fontsource/open-sans/400.css';
+@import '@fontsource/open-sans/500.css';
+@import '@fontsource/open-sans/600.css';
+@import '@fontsource/open-sans/700.css';
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme {
+  --font-sans: 'Open Sans Variable', 'Open Sans', system-ui, sans-serif;
+  --font-display: 'Plus Jakarta Sans Variable', 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  /* accent scale - stable across themes, used for the always-dark hero */
+  --color-accent-50: #f5f3ff;
+  --color-accent-100: #ede9fe;
+  --color-accent-200: #ddd6fe;
+  --color-accent-300: #c4b5fd;
+  --color-accent-400: #a78bfa;
+  --color-accent-500: #8b5cf6;
+  --color-accent-600: #7c3aed;
+  --color-accent-700: #6d28d9;
+  --color-accent-800: #5b21b6;
+  --color-accent-900: #4c1d95;
+
+  /* semantic tokens - values flip under [data-theme="dark"] below */
+  --color-bg: #ffffff;
+  --color-surface: #f7f6fb;
+  --color-surface-2: #efedf8;
+  --color-text: #17151f;
+  --color-text-muted: #58536b;
+  --color-border: #e3e0ee;
+  --color-accent: var(--color-accent-600);
+  --color-accent-strong: var(--color-accent-700);
+  --color-accent-soft: var(--color-accent-100);
+  --color-accent-foreground: #ffffff;
+  --color-ring: var(--color-accent-400);
+}
+
+[data-theme='dark'] {
+  --color-bg: #0d0b14;
+  --color-surface: #14111f;
+  --color-surface-2: #1b1729;
+  --color-text: #f2f0fa;
+  --color-text-muted: #a8a2c0;
+  --color-border: #2a2440;
+  --color-accent: var(--color-accent-400);
+  --color-accent-strong: var(--color-accent-300);
+  --color-accent-soft: #241f3a;
+  --color-accent-foreground: #17102e;
+  --color-ring: var(--color-accent-400);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-accent-foreground);
+}
+
+.prose-body :where(h2, h3, h4) {
+  font-family: var(--font-display);
+  color: var(--color-text);
+}
+
+.prose-body :where(p, li) {
+  color: var(--color-text-muted);
+  line-height: 1.75;
+}
+
+.prose-body > :has(+ h2),
+.prose-body > :last-child {
+  padding-bottom: 1rem;
+}
+
+.prose-body :where(h2) {
+  font-weight: 700;
+}
+
+.prose-body :where(a) {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose-body :where(code) {
+  background-color: var(--color-surface-2);
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.9em;
+}
+
+.prose-body :where(pre) {
+  background-color: var(--color-surface-2);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  overflow-x: auto;
+}

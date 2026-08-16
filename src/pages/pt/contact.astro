@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Button from '../../components/shared/Button.astro';
+import SocialLinks from '../../components/shared/SocialLinks.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { EMAIL } from '../../consts';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<BaseLayout title={`${t('contact.title')} — Davi Kawasaki`} description={t('contact.subtitle')}>
+  <section class="mx-auto flex min-h-[70vh] max-w-2xl flex-col items-center justify-center px-5 py-24 text-center sm:px-8">
+    <h1 class="font-display text-4xl font-bold sm:text-5xl" style="color: var(--color-text);">{t('contact.title')}</h1>
+    <p class="mt-4 text-lg" style="color: var(--color-text-muted);">{t('contact.subtitle')}</p>
+
+    <Button href={`mailto:${EMAIL}`} variant="solid" size="lg" class="mt-8">
+      {t('contact.emailCta')}
+    </Button>
+
+    <div class="mt-14">
+      <p class="mb-4 text-sm font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">
+        {t('contact.social')}
+      </p>
+      <SocialLinks class="justify-center" />
+    </div>
+  </section>
+</BaseLayout>

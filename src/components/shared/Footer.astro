@@ -1,0 +1,47 @@
+---
+import { getLangFromUrl, useTranslations, localizePath } from '../../i18n/utils';
+import SocialLinks from './SocialLinks.astro';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const year = new Date().getFullYear();
+
+const navItems = [
+  { href: localizePath('/', lang), label: t('nav.home') },
+  { href: localizePath('/projects', lang), label: t('nav.projects') },
+  { href: localizePath('/blog', lang), label: t('nav.blog') },
+  { href: localizePath('/resume', lang), label: t('nav.resume') },
+  { href: localizePath('/contact', lang), label: t('nav.contact') },
+];
+---
+
+<footer class="border-t" style="border-color: var(--color-border); background-color: var(--color-surface);">
+  <div class="mx-auto max-w-6xl px-5 py-12 sm:px-8">
+    <div class="flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-center">
+      <div>
+        <p class="font-display text-lg font-bold" style="color: var(--color-text);">Davi Kawasaki</p>
+        <p class="mt-1 text-sm" style="color: var(--color-text-muted);">Cloud &amp; Platform Engineer</p>
+      </div>
+
+      <nav class="flex flex-wrap gap-x-6 gap-y-2 text-sm" aria-label="Footer" style="color: var(--color-text-muted);">
+        {
+          navItems.map((item) => (
+            <a href={item.href} class="transition-colors hover:text-[var(--color-accent)]">
+              {item.label}
+            </a>
+          ))
+        }
+      </nav>
+
+      <SocialLinks />
+    </div>
+
+    <div
+      class="mt-10 flex flex-col gap-2 border-t pt-6 text-xs sm:flex-row sm:items-center sm:justify-between"
+      style="border-color: var(--color-border); color: var(--color-text-muted);"
+    >
+      <p>&copy; {year} Davi Kawasaki. {t('footer.rights')}</p>
+      <p>{t('footer.builtWith')}</p>
+    </div>
+  </div>
+</footer>

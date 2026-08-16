@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/images/avatar.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"13-f010a176ab2398ad83f7.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/avatar-a60dc11dbbc97eeb51bfb06823b65503.jpg\";"],"sourceRoot":""}

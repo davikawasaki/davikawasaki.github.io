@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProjectCard from '../../components/cards/ProjectCard.astro';
+import { getLangFromUrl, useTranslations, localizePath } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const allProjects = await getCollection('projects', ({ data }) => data.lang === lang);
+const projects = allProjects.sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout title={`${t('projects.pageTitle')} — Davi Kawasaki`} description={t('projects.pageSubtitle')}>
+  <section class="mx-auto max-w-6xl px-5 py-20 sm:px-8">
+    <div class="max-w-2xl">
+      <h1 class="font-display text-4xl font-bold" style="color: var(--color-text);">{t('projects.pageTitle')}</h1>
+      <p class="mt-3 text-lg" style="color: var(--color-text-muted);">{t('projects.pageSubtitle')}</p>
+    </div>
+
+    <div class="mt-12 grid gap-6 sm:grid-cols-2">
+      {
+        projects.map((project) => (
+          <ProjectCard
+            href={localizePath(`/projects/${project.data.slug}`, lang)}
+            title={project.data.title}
+            summary={project.data.summary}
+            company={project.data.company}
+            tags={project.data.tags}
+          />
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,46 @@
+---
+import Badge from '../shared/Badge.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+interface Props {
+  href: string;
+  title: string;
+  summary: string;
+  company: string;
+  tags: string[];
+}
+const { href, title, summary, company, tags } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<a
+  href={href}
+  class="project-card group flex h-full flex-col rounded-2xl border p-6 transition-all hover:-translate-y-0.5"
+  style="border-color: var(--color-border); background-color: var(--color-surface);"
+>
+  <div class="flex flex-wrap gap-2">
+    {tags.slice(0, 3).map((tag) => <Badge>{tag}</Badge>)}
+  </div>
+
+  <h3 class="font-display mt-4 text-lg font-bold" style="color: var(--color-text);">
+    {title}
+  </h3>
+  <p class="mt-1 text-xs font-medium" style="color: var(--color-text-muted);">{company}</p>
+  <p class="mt-3 flex-1 text-sm leading-relaxed" style="color: var(--color-text-muted);">{summary}</p>
+
+  <span
+    class="mt-5 inline-flex items-center gap-1 text-sm font-semibold transition-transform group-hover:translate-x-1"
+    style="color: var(--color-accent);"
+  >
+    {t('projects.viewProject')} &rarr;
+  </span>
+</a>
+
+<style>
+  .project-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 12px 30px -18px rgba(124, 58, 237, 0.35);
+  }
+</style>

@@ -1,0 +1,84 @@
+---
+import '../styles/global.css';
+import Header from '../components/nav/Header.astro';
+import Footer from '../components/shared/Footer.astro';
+import { getLangFromUrl } from '../i18n/utils';
+import { SITE_URL } from '../consts';
+
+interface Props {
+  title: string;
+  description: string;
+  transparentHeader?: boolean;
+  image?: string;
+}
+
+const { title, description, transparentHeader = false, image = '/android-chrome-512x512.png' } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const canonicalURL = new URL(Astro.url.pathname, SITE_URL);
+const ogImageURL = new URL(image, SITE_URL);
+---
+
+<!doctype html>
+<html lang={lang} data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="canonical" href={canonicalURL} />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
+
+    <script is:inline>
+      (function () {
+        var stored = localStorage.getItem('theme');
+        var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+
+    <script is:inline>
+      (function () {
+        var key = 'lang-switch-scroll-ratio';
+        var ratio = sessionStorage.getItem(key);
+        if (ratio === null) return;
+
+        document.documentElement.style.visibility = 'hidden';
+
+        document.addEventListener('DOMContentLoaded', function () {
+          sessionStorage.removeItem(key);
+          requestAnimationFrame(function () {
+            requestAnimationFrame(function () {
+              var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+              window.scrollTo({ top: Math.max(maxScroll, 0) * Number(ratio), left: 0, behavior: 'instant' });
+              document.documentElement.style.visibility = '';
+            });
+          });
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <Header transparent={transparentHeader} />
+    <main class={transparentHeader ? '' : 'pt-20'}>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

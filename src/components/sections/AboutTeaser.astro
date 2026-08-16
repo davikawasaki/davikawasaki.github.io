@@ -1,0 +1,42 @@
+---
+import { Image } from 'astro:assets';
+import avatar from '../../assets/images/avatar.jpg';
+import { getLangFromUrl, useTranslations, localizePath } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section class="mx-auto max-w-6xl px-5 py-20 sm:px-8">
+  <div class="grid items-center gap-12 md:grid-cols-[280px_1fr]">
+    <div class="mx-auto w-48 sm:w-64 md:w-full">
+      <Image
+        src={avatar}
+        alt="Davi Kawasaki"
+        width={480}
+        height={480}
+        class="aspect-square w-full rounded-3xl object-cover"
+        style="border: 1px solid var(--color-border);"
+      />
+    </div>
+
+    <div>
+      <p class="text-sm font-semibold uppercase tracking-wide" style="color: var(--color-accent);">
+        {t('about.title')}
+      </p>
+      <p class="mt-4 text-lg leading-relaxed" style="color: var(--color-text);">
+        {t('about.body1')}
+      </p>
+      <p class="mt-4 text-lg leading-relaxed" style="color: var(--color-text-muted);">
+        {t('about.body2')}
+      </p>
+      <a
+        href={localizePath('/resume', lang)}
+        class="mt-6 inline-flex items-center gap-1 text-sm font-semibold"
+        style="color: var(--color-accent);"
+      >
+        {t('about.cta')} &rarr;
+      </a>
+    </div>
+  </div>
+</section>
