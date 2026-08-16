@@ -8,7 +8,7 @@ dateStart: '2021-09'
 dateEnd: '2023-08'
 tags: ['Identity', 'Platform', 'SSO']
 techStack: ['Keycloak', 'OIDC', 'Vue.js', 'Node.js']
-featured: true
+featured: false
 order: 7
 links: []
 lang: 'en'

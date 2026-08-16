@@ -8,7 +8,7 @@ dateStart: '2025-09'
 dateEnd: null
 tags: ['GitOps', 'Platform']
 techStack: ['ArgoCD', 'Kustomize', 'Kubernetes', 'GitHub']
-featured: false
+featured: true
 order: 4
 links: []
 lang: 'en'
