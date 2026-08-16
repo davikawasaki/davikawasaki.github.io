@@ -8,7 +8,7 @@ dateStart: '2026-06'
 dateEnd: null
 tags: ['SaaS', 'Fintech', 'Automation']
 techStack: ['Ruby on Rails', 'Hotwire', 'Flutter', 'PostgreSQL', 'WhatsApp Cloud API', 'Terraform', 'Kamal', 'k3s']
-featured: false
+featured: true
 order: 2
 links: []
 lang: 'en'

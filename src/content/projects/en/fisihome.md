@@ -8,7 +8,7 @@ dateStart: '2026-07'
 dateEnd: null
 tags: ['SaaS', 'Healthcare', 'Mobile']
 techStack: ['Flutter', 'FastAPI', 'PostgreSQL', 'Kubernetes', 'S3', 'Terraform']
-featured: false
+featured: true
 order: 1
 links: []
 lang: 'en'
