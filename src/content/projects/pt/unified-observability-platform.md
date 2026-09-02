@@ -1,12 +1,12 @@
 ---
 title: 'Plataforma de observabilidade unificada'
 slug: 'unified-observability-platform'
-summary: 'Centralização de logs, traces e métricas de múltiplos clusters Kubernetes em um cluster Kubernetes de operações com stack LGTM, reduzindo custos de AWS e simplificando o monitoramento de microserviços cross ambiente.'
+summary: 'Plataforma compartilhada de telemetria que centralizou logs, traces e métricas entre ambientes Kubernetes, reduzindo custos de AWS e trabalho operacional.'
 company: 'Kawasaki Web Soluções'
-role: 'Consultor de Tecnologia da Informação'
+role: 'Consultor de TI / Tech Lead'
 dateStart: '2020-02'
 dateEnd: null
-tags: ['Observabilidade', 'Otimização de custos', 'Telemetria']
+tags: ['Plataforma de Observabilidade', 'OpenTelemetry', 'Otimização de Custos']
 techStack: ['Grafana', 'Prometheus', 'Loki', 'Tempo', 'Mimir', 'OpenTelemetry']
 featured: true
 order: 9
@@ -16,13 +16,14 @@ lang: 'pt'
 
 ## Problema
 
-Os clusters Kubernetes de cada cliente enviavam logs, traces e métricas para stacks de monitoramento separadas e provisionadas de forma redundante, elevando os gastos com AWS e dificultando obter uma visão única da saúde dos sistemas.
+Os ambientes Kubernetes executavam stacks de monitoramento separadas e provisionadas de forma redundante. Isso aumentava os custos de AWS e obrigava os engenheiros a alternar entre ferramentas durante investigações, sem uma visão operacional compartilhada da saúde dos sistemas.
 
 ## Abordagem
 
-Uma stack LGTM unificada foi projetada e desenvolvida para agregar dados de observabilidade entre clusters. Isso restruturou os logs de aplicação com metadados de usuário de forma mais rica, enviando logs e traces para o cluster centralizado de operações. A comunicação cluster à cluster foi estabelecida via mTLS e métricas continuaram sendo exibidas em dashboards customizados no Grafana.
+Projetei uma plataforma LGTM pronta para produção que agregava logs, traces distribuídos e métricas em um cluster central de operações. Pipelines compatíveis com OpenTelemetry e mTLS protegiam a coleta entre clusters, enquanto metadados consistentes e dashboards do Grafana ofereciam uma fonte comum de sinal operacional aos times técnicos e de negócio.
 
 ## Impacto
 
-- A infraestrutura de monitoramento consolidada reduziu os custos de AWS entre os clientes - menor necessidade de recursos para manter a stack LGTM em todos os clusters restantes.
-- Os stakeholders de negócio ganharam insights acionáveis com metadados de log mais ricos.
+- A consolidação da infraestrutura duplicada de monitoramento reduziu o uso de recursos e os custos na AWS.
+- Os engenheiros ganharam um único caminho de investigação entre ambientes, reduzindo trocas de contexto e trabalho operacional.
+- Metadados mais ricos e consistentes tornaram a mesma telemetria útil para stakeholders técnicos e de negócio.

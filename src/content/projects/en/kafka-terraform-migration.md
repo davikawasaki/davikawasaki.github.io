@@ -1,13 +1,13 @@
 ---
 title: 'Kafka → Terraform migration'
 slug: 'kafka-terraform-migration'
-summary: 'Co-architecture import of kafka resources into Terraform, retiring a legacy deployment tool and setting up versioning for every environment.'
-company: 'Adeva — Fashion Digital client'
-role: 'Senior Site Reliability Engineer'
-dateStart: '2025-09'
+summary: 'Migration of legacy Kafka resources into version-controlled, self-service Terraform pipelines with reviewable changes across every environment.'
+company: 'Toptal — Fashion Digital client'
+role: 'Senior Site Reliability & Platform Engineer'
+dateStart: '2025-08'
 dateEnd: null
-tags: ['Infrastructure', 'GitOps']
-techStack: ['Terraform', 'Kafka', 'GitHub Actions', 'Kustomize']
+tags: ['Internal Platform', 'Self-service', 'Infrastructure as Code']
+techStack: ['Terraform', 'Kafka', 'GitHub Actions']
 featured: true
 order: 3
 links: []
@@ -16,14 +16,14 @@ lang: 'en'
 
 ## Problem
 
-Fashion Digital client's Kafka topics, ACLs and connectors were managed through an aging internal deployment tool with no version history, no diffing, and no safe way to review a change before it hit production.
+Kafka topics, ACLs and connectors were managed through an aging internal deployment tool with no version history, plan diff or safe review path before production. This created operational toil and concentrated deployment knowledge in a small group.
 
 ## Approach
 
-Working with SRE and Cloud Engineering teams, I've co-architected a project to import every existing Kafka resource into Terraform state without downtime, using targeted imports and drift detection to make sure the generated configuration matched what was actually running. Once the import was verified, I've retired the legacy deployment application and rebuilt the release path around pull request review and terraform plan/apply automation.
+Working with SRE and Cloud Engineering, I co-architected the import of existing resources into Terraform state without downtime. Targeted imports and drift detection reconciled code with the running environments; pull-request reviews and automated Terraform plans then became the self-service release path for future changes.
 
 ## Impact
 
-- Every Kafka resource across all environments is now versioned, reviewable and easy to be replicated.
-- The outdated deployment application was fully deprecated.
-- Environment promotion is now handled by Terraform plan diff instead of a manual, undocumented change.
+- Kafka resources across environments became version-controlled, reviewable and reproducible.
+- The outdated deployment application was retired in favour of an automated infrastructure pipeline.
+- Teams can promote changes from a readable Terraform plan instead of relying on manual, undocumented operations.

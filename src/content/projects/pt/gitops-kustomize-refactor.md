@@ -1,12 +1,12 @@
 ---
 title: 'Deploys GitOps com Kustomize multi-imagem'
 slug: 'gitops-kustomize-refactor'
-summary: 'Refatoração da aplicação interna de deploy GitOps para permitir gerenciamento de múltiplas imagens por deployment e para obter versões em tempo real.'
-company: 'Adeva — cliente Fashion Digital'
-role: 'Senior Site Reliability Engineer'
-dateStart: '2025-09'
+summary: 'Refatoração de uma Plataforma Interna de Desenvolvimento para suportar múltiplas imagens no Kustomize e dar visibilidade de releases próxima do tempo real aos times de produto.'
+company: 'Toptal — cliente Fashion Digital'
+role: 'Senior Site Reliability & Platform Engineer'
+dateStart: '2025-08'
 dateEnd: null
-tags: ['GitOps', 'Plataforma']
+tags: ['Plataforma Interna', 'GitOps', 'Experiência do Desenvolvedor']
 techStack: ['ArgoCD', 'Kustomize', 'Kubernetes', 'GitHub']
 featured: true
 order: 4
@@ -16,13 +16,14 @@ lang: 'pt'
 
 ## Problema
 
-A ferramenta de GitOps do time assumia uma única imagem por deployment e as versões de microsserviços não eram em atualizadas tempo real, então serviços multi-container não podiam ser despachados de forma granular e o status do rollout ficava defasado em relação ao que realmente havia sido mergeado.
+A plataforma interna de GitOps assumia uma única imagem por deployment e atualizava as versões dos microsserviços lentamente. Serviços multi-container exigiam contornos específicos, e os desenvolvedores não podiam depender da plataforma para obter informações de release em tempo hábil.
 
 ## Abordagem
 
-O uso de Kustomize da aplicação de deploy foi refatorado para permitir múltiplas imagens dentro de um único manifest de deployment. A lógica de polling foi remodelada com webhooks, permitindo atualizações mais frequentes trazidas do histórico do Github ao invés de uma sincronização agendada lenta.
+Refatorei a integração da aplicação de deploy com o Kustomize para suportar múltiplas imagens em um único manifesto e reformulei a consulta automatizada ao histórico do GitHub. A mudança preservou o fluxo self-service de releases, passou a atender workloads mais complexos e melhorou o feedback apresentado aos times de produto.
 
 ## Impacto
 
-- Serviços multi-container foram remodelados para apresentação sem gambiarras.
-- O status de deploy reflete o histórico do GitHub muito mais próximo do tempo real.
+- Serviços multi-container passaram a usar o mesmo caminho padronizado de deploy sem soluções específicas.
+- O status de release passou a refletir o histórico do GitHub muito mais próximo do tempo real, encurtando o ciclo de feedback dos desenvolvedores.
+- Os times de produto ganharam um caminho self-service mais confiável para inspecionar e publicar seus workloads.

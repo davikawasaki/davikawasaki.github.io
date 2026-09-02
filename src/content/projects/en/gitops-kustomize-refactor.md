@@ -1,12 +1,12 @@
 ---
 title: 'GitOps deployments with multi-image Kustomize'
 slug: 'gitops-kustomize-refactor'
-summary: 'Internal GitOps deployment application refactor to support management of multiple images per deployment and to obtain real-time versions.'
-company: 'Adeva — Fashion Digital client'
-role: 'Senior Site Reliability Engineer'
-dateStart: '2025-09'
+summary: 'Internal Developer Platform refactor that added multi-image Kustomize support and near-real-time release visibility for product teams.'
+company: 'Toptal — Fashion Digital client'
+role: 'Senior Site Reliability & Platform Engineer'
+dateStart: '2025-08'
 dateEnd: null
-tags: ['GitOps', 'Platform']
+tags: ['Internal Platform', 'GitOps', 'Developer Experience']
 techStack: ['ArgoCD', 'Kustomize', 'Kubernetes', 'GitHub']
 featured: true
 order: 4
@@ -16,13 +16,14 @@ lang: 'en'
 
 ## Problem
 
-Team's GitOps tooling assumed one image per deployment and microservice versions weren't updated in real time, so multi-container services couldn't be rolled out granularly and rollout signal from GitHub lagged behind what was actually merged.
+The internal GitOps platform assumed one image per deployment and refreshed microservice versions too slowly. Multi-container services required workarounds, and developers could not rely on the platform for timely release information.
 
 ## Approach
 
-Deployment application's Kustomize usage was refactored to support multiple images inside a single deployment manifest. Polling logic was reworked with webhooks, allowing more frequent updates to be pulled from GitHub history instead of a slow scheduled sync.
+I refactored the deployment application's Kustomize integration to support multiple images in one manifest and reworked its automated GitHub history polling. The change kept the existing self-service release path while making it useful for more complex workloads and improving the feedback shown to product teams.
 
 ## Impact
 
-- Multi-container services were reworked to be presented without workarounds.
-- Deployment status reflects GitHub history far closer to real time.
+- Multi-container services can use the same paved-road deployment workflow without bespoke workarounds.
+- Release status now reflects GitHub history much closer to real time, shortening the developer feedback loop.
+- Product teams gained a more dependable self-service path for inspecting and releasing their workloads.

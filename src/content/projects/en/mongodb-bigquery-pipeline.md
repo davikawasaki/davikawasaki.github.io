@@ -1,12 +1,12 @@
 ---
 title: 'MongoDB → BigQuery pipeline at 20M+ rows/day'
 slug: 'mongodb-bigquery-pipeline'
-summary: 'Client point-of-sale (POS) data pipeline rebuild from MongoDB to BigQuery using Apache Beam, dropping ETL time for 20M+ daily rows to under 20 minutes.'
+summary: 'Reusable Apache Beam data-pipeline pattern that processed 20M+ MongoDB records into BigQuery in under 20 minutes.'
 company: 'Starops'
-role: 'DevOps Engineer / Infrastructure Engineer / DataOps'
+role: 'DevOps & Data Engineer'
 dateStart: '2021-09'
 dateEnd: '2023-08'
-tags: ['Data', 'Pipelines', 'ETL']
+tags: ['Data Platform', 'Reusable Pipelines', 'ETL']
 techStack: ['Apache Beam', 'BigQuery', 'MongoDB', 'Python']
 featured: false
 order: 8
@@ -20,7 +20,7 @@ Point-of-sale data synced from MongoDB into BigQuery through a slow, brittle bat
 
 ## Approach
 
-Pipeline rebuild on Apache Beam with Python, parallelizing extraction and transform steps, tuning BigQuery load strategy to handle the full daily volume as a streaming-friendly batch instead of a single monolithic job.
+I rebuilt the pipeline with Apache Beam and Python, parallelising extraction and transformation and tuning the BigQuery load strategy for the full volume. The design separated reusable processing stages so the team could apply the same pattern to later data workloads.
 
 ## Impact
 
