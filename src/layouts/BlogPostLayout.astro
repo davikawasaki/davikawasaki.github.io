@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Badge from '../components/shared/Badge.astro';
+import PostCta from '../components/sections/PostCta.astro';
 import { getLangFromUrl, useTranslations, localizePath } from '../i18n/utils';
 
 interface Props {
@@ -44,5 +45,7 @@ const locale = lang === 'pt' ? 'pt-BR' : 'en-US';
     <div class="prose-body mt-8 max-w-none">
       <slot />
     </div>
+
+    <PostCta tags={tags} />
   </article>
 </BaseLayout>

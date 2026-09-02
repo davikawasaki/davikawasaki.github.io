@@ -1,7 +1,7 @@
 ---
 title: 'FisiHome — take-home physiotherapy SaaS'
 slug: 'fisihome'
-summary: 'Multi-tenant SaaS where physiotherapists prescribe day-by-day exercise plans with videos, and patients record their execution for review.'
+summary: 'Multi-tenant rehabilitation SaaS that connects prescribed video exercises with patient recordings and asynchronous professional review.'
 company: 'Kawasaki Web Soluções'
 role: 'Founder / Lead Engineer'
 dateStart: '2026-07'
@@ -16,21 +16,21 @@ lang: 'en'
 
 ## Problem
 
-Physiotherapy and pilates professionals prescribe take-home exercises through conversation, so he/she can't track if the patient practiced at home — correctly or not. Gym-training focused apps do not model clinical rehab workflows (per-body-region treatment tracks, consultation vs. home days, professional review) and might not address Brazilian health-data protection under LGPD.
+Physiotherapy and Pilates professionals often prescribe home exercises verbally, leaving no reliable way to verify whether patients practised or performed movements correctly. Fitness-focused applications do not model clinical rehabilitation workflows such as body-region treatment tracks, clinic-versus-home schedules and professional review, nor do they necessarily address LGPD requirements for Brazilian health data.
 
 ## Approach
 
-FisiHome is being built as a two-persona Flutter app — professional and patient — on top of an async Python/FastAPI API with SQLAlchemy and Alembic. Professionals register patients by invite only, organise assignments into treatment tracks by clinical classification and pull exercises from a shared library or upload patient-specific videos; patients see each day's assignments, watch the exercise video, record themselves and receive written feedback. This allows a more consistent and agile clinical progression, since movement repetition on a daily basis allows a progressive strenghtening, subject to constant rectification.
+I am building FisiHome as a two-sided Flutter application for professionals and patients, backed by an asynchronous FastAPI service with SQLAlchemy and Alembic. Professionals invite patients, organise assignments into clinically classified treatment tracks and select shared exercises or upload patient-specific videos. Patients follow daily plans, record their execution and receive written feedback, creating a continuous rehabilitation loop between appointments.
 
 Key architectural decisions:
 
-- **Pooled multi-tenancy on PostgreSQL Row-Level Security**, with a path to bridge/silo isolation depending on hired tier by clinics.
-- **Videos never touch the cluster** — clients upload straight to S3 object storage with presigned URLs and play back through signed CDN URLs, so the compute tier only carries API traffic.
-- **Self-hosted auth** in the API: JWT access/refresh, Argon2id hashing and TOTP MFA for professionals, matching the invite-only onboarding rules.
-- **Development environment on a 2-node k3s cluster (Raspberry Pi 5) exposed via Cloudflare Tunnel**, provisioned with Terraform and instrumented with OpenTelemetry into Grafana/Prometheus/Loki/Tempo, designed to be moved to Cloud once patient volume justifies it.
+- **Designed pooled multi-tenancy with PostgreSQL Row-Level Security**, retaining a path to bridge or silo isolation for higher clinic tiers.
+- **Kept video traffic outside the compute cluster** through direct S3 uploads with presigned URLs and playback through signed CDN URLs.
+- **Designed self-hosted authentication** with JWT access and refresh tokens, Argon2id password hashing and TOTP MFA for invite-only professional accounts.
+- **Provisioned a two-node Raspberry Pi k3s development environment with Terraform**, exposed it through Cloudflare Tunnel and instrumented it with OpenTelemetry, Grafana, Prometheus, Loki and Tempo for a future managed-cloud migration.
 
 ## Impact
 
-- Foundation milestone in progress: API skeleton, domain model, RLS tenancy, auth and invite flows, plus the Kubernetes and Terraform baselines.
-- Roadmap sequenced into: prescribe → video pipeline → close-the-loop review → LGPD export/delete, so each milestone ships something a real clinic can use.
-- Cloud-native media from day one keeps the eventual managed-cloud migration limited to the API and database.
+- Established the initial API skeleton, domain model, RLS tenancy, authentication and invitation flows alongside Kubernetes and Terraform baselines.
+- Sequenced delivery into independently usable milestones: prescription, video pipeline, professional review and LGPD export/deletion.
+- Isolated media delivery from application compute, limiting the eventual managed-cloud migration to the API and database tiers.

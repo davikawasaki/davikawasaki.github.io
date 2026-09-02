@@ -16,25 +16,25 @@ export const ui = {
     'nav.theme': 'Toggle theme',
     'nav.menu': 'Menu',
 
-    'hero.badge': 'Cloud & Platform Engineer',
+    'hero.badge': 'Senior SRE & Platform Engineer',
     'hero.headline': 'Davi Kawasaki',
     'hero.subhead':
-      'Resilient infrastructure architecture and automation + end-to-end solutions development.',
+      'Building reliable self-service platforms, automated delivery paths and clear operating models for distributed engineering teams.',
     'hero.ctaPrimary': 'View resume',
     'hero.ctaSecondary': 'See projects',
 
     'about.title': 'About',
     'about.body1':
-      "I'm currently working as a Senior Site Reliability Engineer at Toptal, based in Londrina / Brazil. Over the past several years I've worked across multinationals and startups in the US, Europe and LATAM — Fashion Digital, Arista Networks, Starops, DSV, CI&T — building APIs, platforms, infrastructure-as-code, GitOps pipelines and observability solutions for teams spanning multiple time zones and cultures.",
+      "I'm a Senior Site Reliability & Platform Engineer with an EU Passport, relocating to Dublin, Ireland in March 2027 (available for global remote contracts). Over the past several years I've engineered cloud infrastructure across US, European and LATAM tech companies. I specialise in building Internal Developer Platforms (IDP), automated GitOps pipelines, and scaling cloud telemetry.",
     'about.body2':
-      'I always strive to deliver the smallest effective solution: automating away toil, giving teams clear signal instead of noise, and always keeping end users in mind. Also working on my own SaaS projects in my spare time: Zyfinbot & Fisihome.',
+      'My mission is to champion developer self-service autonomy and to eliminate operational toil through clear asynchronous documentation and written architectural standards. Also working on my own SaaS projects in my spare time: Ecomfw, Zyfinbot & Fisihome.',
     'about.cta': 'Read the full resume',
 
     'skills.title': 'Tools & Skills',
-    'skills.subtitle': 'What I reach for day to day and I am experience at',
+    'skills.subtitle': 'Technologies and practices I use to build reliable platforms and reduce developer toil',
 
-    'projects.title': 'Selected work cases',
-    'projects.subtitle': 'A few recent infrastructure and platform case studies',
+    'projects.title': 'Selected engineering case studies',
+    'projects.subtitle': 'Internal platforms, reliability automation and developer tooling with measurable outcomes',
     'projects.viewAll': 'View all projects',
     'projects.viewProject': 'Read case study',
     'projects.backToProjects': 'Back to projects',
@@ -45,10 +45,10 @@ export const ui = {
     'projects.links': 'Links',
     'projects.pageTitle': 'Projects',
     'projects.pageSubtitle':
-      'Infrastructure, platform and automation work from recent roles, plus a few things I built on my own time.',
+      'Case studies in internal platforms, self-service infrastructure, reliability and developer tooling for distributed engineering teams.',
 
     'blog.title': 'Latest posts',
-    'blog.subtitle': 'Findings on infrastructure, tools and lessons learned',
+    'blog.subtitle': 'Practical findings on infrastructure, platform engineering and developer experience',
     'blog.viewAll': 'View all posts',
     'blog.backToBlog': 'Back to blog',
     'blog.pageTitle': 'Blog',
@@ -57,7 +57,7 @@ export const ui = {
     'blog.readOnMedium': 'Read on Medium',
 
     'resume.title': 'Resume',
-    'resume.subtitle': 'Experience, education and the skills I bring to a team',
+    'resume.subtitle': 'Senior SRE and Platform Engineer focused on internal developer platforms, self-service infrastructure and reliable async operations',
     'resume.experience': 'Experience',
     'resume.education': 'Education',
     'resume.certifications': 'Certifications',
@@ -68,12 +68,21 @@ export const ui = {
 
     'contact.title': "Let's talk",
     'contact.subtitle':
-      "Have an infrastructure to build, a system to untangle, or have any order of business to discuss?",
+      'Need to build a platform, improve reliability or simplify a complex delivery workflow?',
     'contact.emailCta': 'Email me',
-    'contact.social': 'Other places that I am online',
+    'contact.social': 'Where else to find me',
 
-    'cta.title': 'Have a project in mind?',
-    'cta.subtitle': "I'm all ears to talk infrastructure, automation, or how to make your system more reliable. Let's talk?",
+    'postCta.title': 'Need to solve this on your team?',
+    'postCta.delivery.subtitle':
+      'I turn work that needed a specialist and a ticket into a path teams take on their own, with the guardrails that make it safe to run in production.',
+    'postCta.durability.subtitle':
+      'I build internal platforms that outlive the person who built them: self-service, observable, documented, and safe for a team to operate on its own.',
+    'postCta.reliability.subtitle':
+      'I work on the parts of infrastructure where a mistake reaches production: delivery paths, recovery automation and telemetry, built so the safe move is the default one.',
+    'postCta.button': "Let's talk",
+
+    'cta.title': 'Need a more reliable platform?',
+    'cta.subtitle': "Let's discuss self-service infrastructure, automation and the operating practices that help engineering teams move safely.",
     'cta.button': 'Get in touch',
 
     'footer.rights': 'All rights reserved.',
@@ -92,25 +101,25 @@ export const ui = {
     'nav.theme': 'Alternar tema',
     'nav.menu': 'Menu',
 
-    'hero.badge': 'Senior DevOps & SRE',
+    'hero.badge': 'Senior SRE & Platform Engineer',
     'hero.headline': 'Davi Kawasaki',
     'hero.subhead':
-      'Arquitetura e automação de infraestrutura resiliente + desenvolvimento de soluções de ponta a ponta.',
+      'Construindo plataformas self-service confiáveis, fluxos de entrega automatizados e modelos operacionais claros para times de engenharia distribuídos.',
     'hero.ctaPrimary': 'Ver currículo',
     'hero.ctaSecondary': 'Ver projetos',
 
     'about.title': 'Sobre',
     'about.body1':
-      'Atualmente atuo como Senior Site Reliability Engineer na Toptal, baseado em Londrina / Brasil. Nos últimos anos trabalhei em multinacionais e startups nos EUA, Europa e LATAM — Fashion Digital, Arista Networks, Starops, DSV, CI&T — construindo APIs, plataformas, infrastructure as code, pipelines GitOps e soluções de observabilidade para times distribuídos em diversos fusos horários e culturas.',
+      'Atuo como Senior Site Reliability & Platform Engineer com cidadania europeia, em processo de realocação para Dublin, Irlanda em março de 2027 (disponível para contratos remotos globais). Nos últimos anos, desenvolvi projetos de infraestrutura em nuvem para empresas de tecnologia nos EUA, Europa e LATAM. Sou especialista na construção de Plataformas Internas de Desenvolvimento (IDP), pipelines de GitOps automatizados e escalabilidade de observabilidade.',
     'about.body2':
-      'Sempre me esforço em entregar a solução mais simples e eficaz: automatizando trabalho repetitivo, clarificando monitoramento para times, e sempre pensando em quem está do outro lado do sistema. No meu tempo livre também trabalho nos meus próprios projetos SaaS: Zyfinbot & Fisihome.',
+      'Minha missão é promover a autonomia self-service para times de desenvolvimento e eliminar o trabalho manual por meio de documentação assíncrona clara e padrões arquiteturais escritos. No meu tempo livre também trabalho nos meus próprios projetos SaaS: Ecomfw, Zyfinbot & Fisihome.',
     'about.cta': 'Ler o currículo completo',
 
     'skills.title': 'Ferramentas & Habilidades',
-    'skills.subtitle': 'O que uso no dia a dia e tenho experiência',
+    'skills.subtitle': 'Tecnologias e práticas que uso para construir plataformas confiáveis e reduzir o trabalho operacional dos desenvolvedores',
 
-    'projects.title': 'Casos de trabalho selecionados',
-    'projects.subtitle': 'Alguns estudos de caso recentes de infraestrutura e plataforma',
+    'projects.title': 'Estudos de caso de engenharia',
+    'projects.subtitle': 'Plataformas internas, automação de confiabilidade e ferramentas para desenvolvedores com resultados mensuráveis',
     'projects.viewAll': 'Ver todos os projetos',
     'projects.viewProject': 'Ler estudo de caso',
     'projects.backToProjects': 'Voltar aos projetos',
@@ -121,10 +130,10 @@ export const ui = {
     'projects.links': 'Links',
     'projects.pageTitle': 'Projetos',
     'projects.pageSubtitle':
-      'Trabalhos de infraestrutura, plataforma e automação de cargos recentes, além de projetos pessoais.',
+      'Estudos de caso em plataformas internas, infraestrutura self-service, confiabilidade e ferramentas para times de engenharia distribuídos.',
 
     'blog.title': 'Últimas postagens',
-    'blog.subtitle': 'Aprendizados sobre infraestrutura, ferramentas e aprendizados',
+    'blog.subtitle': 'Aprendizados práticos sobre infraestrutura, engenharia de plataforma e experiência do desenvolvedor',
     'blog.viewAll': 'Ver todas as postagens',
     'blog.backToBlog': 'Voltar ao blog',
     'blog.pageTitle': 'Blog',
@@ -133,7 +142,7 @@ export const ui = {
     'blog.readOnMedium': 'Ler no Medium',
 
     'resume.title': 'Currículo',
-    'resume.subtitle': 'Experiência, educação e as habilidades que trago para um time',
+    'resume.subtitle': 'Senior SRE e Platform Engineer com foco em plataformas internas, infraestrutura self-service e operações assíncronas confiáveis',
     'resume.experience': 'Experiência',
     'resume.education': 'Educação',
     'resume.certifications': 'Certificações',
@@ -144,12 +153,21 @@ export const ui = {
 
     'contact.title': 'Vamos conversar',
     'contact.subtitle':
-      'Tem uma infraestrutura para construir, um sistema para descomplicar, ou tem algum negócio em mente?',
+      'Precisa construir uma plataforma, melhorar a confiabilidade ou simplificar um fluxo complexo de entrega?',
     'contact.emailCta': 'Me envie um email',
-    'contact.social': 'Outros locais que estou presente',
+    'contact.social': 'Onde mais me encontrar',
 
-    'cta.title': 'Tem um projeto em mente?',
-    'cta.subtitle': 'Estou disponível para conversar sobre infraestrutura, automação ou como tornar seu sistema mais confiável. Vamos conversar?',
+    'postCta.title': 'Precisa resolver isso no seu time?',
+    'postCta.delivery.subtitle':
+      'Transformo o que dependia de um especialista e de um chamado em um caminho que o time percorre sozinho, com as travas que tornam isso seguro em produção.',
+    'postCta.durability.subtitle':
+      'Construo plataformas internas que sobrevivem a quem as construiu: self-service, observáveis, documentadas e seguras para o time operar sozinho.',
+    'postCta.reliability.subtitle':
+      'Atuo nas partes da infraestrutura em que um erro chega em produção: caminhos de entrega, automação de recuperação e telemetria, construídos para que o movimento seguro seja o padrão.',
+    'postCta.button': 'Vamos conversar',
+
+    'cta.title': 'Precisa de uma plataforma mais confiável?',
+    'cta.subtitle': 'Vamos conversar sobre infraestrutura self-service, automação e práticas operacionais que ajudam times de engenharia a entregar com segurança.',
     'cta.button': 'Entre em contato',
 
     'footer.rights': 'Todos os direitos reservados.',

@@ -1,12 +1,12 @@
 ---
 title: 'Unified observability platform'
 slug: 'unified-observability-platform'
-summary: 'Centralized logs, traces and metrics from multiple Kubernetes clusters into an operations Kubernetes cluster with LGTM stack, cutting AWS costs and simplifying microservices monitoring cross-environments.'
+summary: 'Shared telemetry platform that centralised logs, traces and metrics across Kubernetes environments, reducing AWS costs and operational toil.'
 company: 'Kawasaki Web Soluções'
-role: 'Information Technology Consultant'
+role: 'IT Consultant / Tech Lead'
 dateStart: '2020-02'
 dateEnd: null
-tags: ['Observability', 'Cost optimization', 'Telemetry']
+tags: ['Observability Platform', 'OpenTelemetry', 'Cost Optimisation']
 techStack: ['Grafana', 'Prometheus', 'Loki', 'Tempo', 'Mimir', 'OpenTelemetry']
 featured: true
 order: 9
@@ -16,13 +16,14 @@ lang: 'en'
 
 ## Problem
 
-Each client's Kubernetes clusters shipped logs, traces and metrics to separate, redundantly-provisioned monitoring stacks, driving up AWS expenditure and making it hard to get a single view of system health.
+Kubernetes environments ran separate, redundantly provisioned monitoring stacks. That increased AWS costs and forced engineers to jump between tools during investigation, with no shared operational view of system health.
 
 ## Approach
 
-An unified LGTM stack was architected and developed to aggregate observability data across clusters. This restructured application logs with richer user metadata top-to-boottom, shipping logs and traces to the centralised operations sink cluster. Cluster-to-cluster communication was established via mTLS and metrics continued to be shown in custom Grafana dashboards.
+I designed a production-ready LGTM platform to aggregate logs, distributed traces and metrics in a central operations cluster. OpenTelemetry-compatible pipelines and mTLS secured cross-cluster collection, while consistent metadata and Grafana dashboards gave engineering and business teams a common source of operational signal.
 
 ## Impact
 
-- Consolidated monitoring infrastructure reduced AWS costs across clients - less resource allocation to keep LGTM stack online on remaining clusters.
-- Business stakeholders gained more actionable insight from richer log metadata.
+- Consolidating duplicated monitoring infrastructure reduced AWS resource usage and cost.
+- Engineers gained one investigation path across environments, reducing context switching and operational toil.
+- Richer, consistent metadata made the same telemetry useful to both technical and business stakeholders.

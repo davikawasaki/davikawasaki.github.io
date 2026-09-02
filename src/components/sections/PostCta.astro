@@ -1,0 +1,30 @@
+---
+import Button from '../shared/Button.astro';
+import { getLangFromUrl, useTranslations, localizePath } from '../../i18n/utils';
+import { resolvePostCtaVariant } from '../../i18n/postCta';
+
+interface Props {
+  tags?: string[];
+}
+
+const { tags = [] } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const variant = resolvePostCtaVariant(tags);
+---
+
+<aside
+  class="mt-16 rounded-2xl border p-8 sm:p-10"
+  style="border-color: var(--color-border); background-color: var(--color-surface-2);"
+>
+  <h2 class="font-display text-xl font-bold sm:text-2xl" style="color: var(--color-text);">
+    {t('postCta.title')}
+  </h2>
+  <p class="mt-3 max-w-2xl" style="color: var(--color-text-muted);">
+    {t(`postCta.${variant}.subtitle`)}
+  </p>
+  <Button href={localizePath('/contact', lang)} variant="solid" size="md" class="mt-6">
+    {t('postCta.button')}
+  </Button>
+</aside>

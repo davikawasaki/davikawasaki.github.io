@@ -1,12 +1,12 @@
 ---
 title: 'Pipeline MongoDB → BigQuery com 20M+ linhas/dia'
 slug: 'mongodb-bigquery-pipeline'
-summary: 'Reconstrução de uma pipeline de dados de ponto de venda (PDV) de um cliente do MongoDB para o BigQuery usando Apache Beam, reduzindo o tempo de ETL de mais de 20M de linhas diárias para menos de 20 minutos.'
+summary: 'Padrão reutilizável de pipeline com Apache Beam que processou mais de 20M de registros do MongoDB para o BigQuery em menos de 20 minutos.'
 company: 'Starops'
-role: 'DevOps Engineer / Infrastructure Engineer / DataOps'
+role: 'DevOps & Data Engineer'
 dateStart: '2021-09'
 dateEnd: '2023-08'
-tags: ['Dados', 'Pipelines', 'ETL']
+tags: ['Plataforma de Dados', 'Pipelines Reutilizáveis', 'ETL']
 techStack: ['Apache Beam', 'BigQuery', 'MongoDB', 'Python']
 featured: false
 order: 8
@@ -20,7 +20,7 @@ Os dados de ponto de venda eram sincronizados do MongoDB para o BigQuery por um 
 
 ## Abordagem
 
-Reconstrução da pipeline em Apache Beam com Python, paralelizando as etapas de extração e transformação, ajustando a estratégia de carregamento da carga no BigQuery para processar todo o volume diário como um lote amigável a streaming, em vez de um único job monolítico.
+Reconstruí o pipeline com Apache Beam e Python, paralelizando a extração e transformação e ajustando a estratégia de carga no BigQuery para o volume completo. O desenho separou etapas de processamento reutilizáveis para que o time pudesse aplicar o mesmo padrão a workloads de dados posteriores.
 
 ## Impacto
 

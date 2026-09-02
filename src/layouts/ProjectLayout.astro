@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Badge from '../components/shared/Badge.astro';
+import PostCta from '../components/sections/PostCta.astro';
 import { getLangFromUrl, useTranslations, localizePath } from '../i18n/utils';
 
 interface Props {
@@ -96,5 +97,7 @@ const dateRange = `${formatDate(dateStart)} — ${dateEnd ? formatDate(dateEnd) 
         </div>
       )
     }
+
+    <PostCta tags={tags} />
   </article>
 </BaseLayout>

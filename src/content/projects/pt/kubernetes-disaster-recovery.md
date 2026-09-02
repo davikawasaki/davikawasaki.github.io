@@ -1,12 +1,12 @@
 ---
-title: 'Automação de recuperação de desastre - Site corporativo'
+title: 'Automação de recuperação de desastre orientada por runbooks'
 slug: 'kubernetes-disaster-recovery'
-summary: 'Automação da recuperação de desastre do site corporativo principal com Python e GitHub Actions, reduzindo o tempo de recuperação de horas para menos de 10 minutos.'
+summary: 'Recuperação de desastre zero-touch com Python, GitHub Actions e runbooks operacionais, reduzindo a recuperação de horas para menos de 10 minutos para um time global de on-call.'
 company: 'Arista Networks'
-role: 'Senior DevOps Engineer'
+role: 'Senior DevOps & Site Reliability Engineer'
 dateStart: '2023-08'
 dateEnd: '2025-08'
-tags: ['Confiabilidade', 'Automação']
+tags: ['Confiabilidade', 'Runbooks', 'Resposta Assíncrona a Incidentes']
 techStack: ['Python', 'GitHub Actions', 'Terraform', 'Kubernetes']
 featured: true
 order: 5
@@ -16,14 +16,14 @@ lang: 'pt'
 
 ## Problema
 
-Recuperação do site corporativo principal após um incidente era um processo manual, guiado por runbook, que levava horas e dependia de quem estivesse em on-call conhecer cada passo de cabeça.
+A recuperação do site corporativo principal era um processo manual que levava horas e ainda dependia do conhecimento tácito de quem estivesse em on-call. Isso era especialmente arriscado para um time que transferia incidentes entre fusos horários.
 
 ## Abordagem
 
-Uma ferramenta de recuperação em Python foi escrita, conectada ao GitHub Actions com o objetivo de reconstruir a infraestrutura do site em uma região distinta,  restaurando o estado a partir do último snapshot íntegro conhecido e substituindo uma dezena de passos manuais passíveis de erro humano do runbook por um único workflow disparado sob demanda.
+Construí uma ferramenta de recuperação em Python e a disponibilizei por meio de um workflow do GitHub Actions com controle de acesso. Ela reconstruía o site em outra região, restaurava o último snapshot íntegro e substituía uma dezena de passos sujeitos a erro por uma única operação sob demanda. Também escrevi os runbooks técnicos necessários para handoffs assíncronos na rotação global de on-call.
 
 ## Impacto
 
 - O tempo de recuperação caiu de horas para menos de 10 minutos.
-- Engenheiros on-call não precisam mais de conhecimento tácito do runbook de recuperação.
-- Maior controle de autoria do processo - quem pode executar ou não o processo automatizado
+- Engenheiros de on-call podem executar e compreender a recuperação a partir de procedimentos escritos e compartilhados, sem depender de conhecimento tácito.
+- Permissões no workflow tornaram a execução auditável e limitaram a operação a pessoas autorizadas.
