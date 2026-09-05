@@ -25,7 +25,7 @@ export const ui = {
 
     'about.title': 'About',
     'about.body1':
-      "I'm a Senior Site Reliability & Platform Engineer with an EU Passport, relocating to Dublin, Ireland in March 2027 (available for global remote contracts). Over the past several years I've engineered cloud infrastructure across US, European and LATAM tech companies. I specialise in building Internal Developer Platforms (IDP), automated GitOps pipelines, and scaling cloud telemetry.",
+      "I'm a Senior Site Reliability & Platform Engineer, available for global remote contracts. Over the past several years I've engineered cloud infrastructure across US, European and LATAM tech companies. I specialise in building Internal Developer Platforms (IDP), automated GitOps pipelines, and scaling cloud telemetry.",
     'about.body2':
       'My mission is to champion developer self-service autonomy and to eliminate operational toil through clear asynchronous documentation and written architectural standards. Also working on my own SaaS projects in my spare time: Ecomfw, Zyfinbot & Fisihome.',
     'about.cta': 'Read the full resume',
@@ -110,7 +110,7 @@ export const ui = {
 
     'about.title': 'Sobre',
     'about.body1':
-      'Atuo como Senior Site Reliability & Platform Engineer com cidadania europeia, em processo de realocação para Dublin, Irlanda em março de 2027 (disponível para contratos remotos globais). Nos últimos anos, desenvolvi projetos de infraestrutura em nuvem para empresas de tecnologia nos EUA, Europa e LATAM. Sou especialista na construção de Plataformas Internas de Desenvolvimento (IDP), pipelines de GitOps automatizados e escalabilidade de observabilidade.',
+      'Atuo como Senior Site Reliability & Platform Engineer, disponível para contratos remotos globais). Nos últimos anos, desenvolvi projetos de infraestrutura em nuvem para empresas de tecnologia nos EUA, Europa e LATAM. Sou especialista na construção de Plataformas Internas de Desenvolvimento (IDP), pipelines de GitOps automatizados e escalabilidade de observabilidade.',
     'about.body2':
       'Minha missão é promover a autonomia self-service para times de desenvolvimento e eliminar o trabalho manual por meio de documentação assíncrona clara e padrões arquiteturais escritos. No meu tempo livre também trabalho nos meus próprios projetos SaaS: Ecomfw, Zyfinbot & Fisihome.',
     'about.cta': 'Ler o currículo completo',

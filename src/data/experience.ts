@@ -24,8 +24,8 @@ export const location: Bilingual = {
 };
 
 export const availability: Bilingual = {
-  en: 'Available for global remote roles · Relocating to Dublin in March 2027 · EU citizen with full working rights',
-  pt: 'Disponível para vagas remotas globais · Realocação para Dublin em março de 2027 · Cidadão da UE com direito pleno ao trabalho',
+  en: 'Available for global remote roles · EU citizen with full working rights',
+  pt: 'Disponível para vagas remotas globais · Cidadão da UE com direito pleno ao trabalho',
 };
 
 export const experience: ExperienceEntry[] = [
