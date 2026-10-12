@@ -1,13 +1,13 @@
 ---
 title: 'GitOps deployments with multi-image Kustomize'
 slug: 'gitops-kustomize-refactor'
-summary: 'Internal Developer Platform refactor that added multi-image Kustomize support and near-real-time release visibility for product teams.'
+summary: 'Python/Flask Internal Developer Platform refactor that added secure multi-image deployments, cut CD time by about one hour per day and reduced UI load time to about 350 ms.'
 company: 'Toptal — Fashion Digital client'
 role: 'Senior Site Reliability & Platform Engineer'
 dateStart: '2025-08'
-dateEnd: null
+dateEnd: '2026-09'
 tags: ['Internal Platform', 'GitOps', 'Developer Experience']
-techStack: ['ArgoCD', 'Kustomize', 'Kubernetes', 'GitHub']
+techStack: ['Python', 'Flask', 'Argo CD', 'Kustomize', 'Kubernetes', 'GitHub', 'Firestore', 'Playwright']
 featured: true
 order: 4
 links: []
@@ -16,14 +16,15 @@ lang: 'en'
 
 ## Problem
 
-The internal GitOps platform assumed one image per deployment and refreshed microservice versions too slowly. Multi-container services required workarounds, and developers could not rely on the platform for timely release information.
+The internal GitOps platform assumed one image per deployment, reconstructured the deployment state visualisation too slowly and required manual validation before development releases. Multi-container services needed workarounds, and developers could not rely on the platform for timely release information.
 
 ## Approach
 
-I refactored the deployment application's Kustomize integration to support multiple images in one manifest and reworked its automated GitHub history polling. The change kept the existing self-service release path while making it useful for more complex workloads and improving the feedback shown to product teams.
+I refactored the application to support granular Kustomize image updates and GitHub webhooks with a Flask API and React GUI. I added repository-level authorization, automatic GitHub OAuth, HMAC-signed webhooks, Firestore caching and ETag-based conditional requests, then covered the release path with Playwright integration tests.
 
 ## Impact
 
-- Multi-container services can use the same paved-road deployment workflow without bespoke workarounds.
-- Release status now reflects GitHub history much closer to real time, shortening the developer feedback loop.
-- Product teams gained a more dependable self-service path for inspecting and releasing their workloads.
+- GitHub Actions execution time dropped by approximately one hour per day across the platform as static deployments weren't needed anymore.
+- UI load time fell to approximately 350 ms while deployment state became close to real time.
+- Automated Playwright coverage removed approximately 20 minutes of manual validation from each development release.
+- Multi-container services gained the same secure, auditable self-service deployment path as single-image services.

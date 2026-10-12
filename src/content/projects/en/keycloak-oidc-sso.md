@@ -1,7 +1,7 @@
 ---
 title: 'Keycloak SSO for social and enterprise login'
 slug: 'keycloak-oidc-sso'
-summary: 'Central identity platform with Keycloak and OIDC that gave product teams a reusable integration path for social and enterprise SSO.'
+summary: 'Central Keycloak and OIDC identity platform that unified access across two products and migrated 100% of active legacy users without account loss.'
 company: 'Starops'
 role: 'DevOps & Data Engineer'
 dateStart: '2021-09'
@@ -20,10 +20,11 @@ Each application handled authentication independently, leaving inconsistent secu
 
 ## Approach
 
-I established Keycloak as a central identity platform and integrated Vue.js front ends and Node.js APIs through OIDC. A reusable application pattern supported social identity providers and enterprise SSO without bespoke authentication code in every product.
+I established Keycloak as a central identity platform and integrated two Vue.js and Node.js products through OIDC. A reusable pattern supported social identity providers and enterprise SSO, while an automated email-based password-reset workflow moved active legacy users without requiring the old credentials.
 
 ## Impact
 
 - Product teams gained a standard integration path instead of rebuilding authentication per application.
+- 100% of active legacy users were migrated without account loss.
 - Enterprise customers could bring their own SSO without product-specific integration work.
 - Central policy and auditability replaced bespoke, harder-to-review implementations.

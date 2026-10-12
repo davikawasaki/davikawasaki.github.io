@@ -1,5 +1,5 @@
 ---
-title: 'Pipeline MongoDB → BigQuery com 20M+ linhas/dia'
+title: 'Pipeline MongoDB → BigQuery com 20M+ linhas por execução'
 slug: 'mongodb-bigquery-pipeline'
 summary: 'Padrão reutilizável de pipeline com Apache Beam que processou mais de 20M de registros do MongoDB para o BigQuery em menos de 20 minutos.'
 company: 'Starops'
