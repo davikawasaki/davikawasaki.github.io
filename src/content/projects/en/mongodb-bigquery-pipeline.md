@@ -1,5 +1,5 @@
 ---
-title: 'MongoDB → BigQuery pipeline at 20M+ rows/day'
+title: 'MongoDB → BigQuery pipeline at 20M+ rows per run'
 slug: 'mongodb-bigquery-pipeline'
 summary: 'Reusable Apache Beam data-pipeline pattern that processed 20M+ MongoDB records into BigQuery in under 20 minutes.'
 company: 'Starops'

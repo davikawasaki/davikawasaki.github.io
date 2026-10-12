@@ -1,9 +1,9 @@
 ---
 title: 'Unified observability platform'
 slug: 'unified-observability-platform'
-summary: 'Shared telemetry platform that centralised logs, traces and metrics across Kubernetes environments, reducing AWS costs and operational toil.'
+summary: 'Shared telemetry platform that centralised logs, traces and metrics across Kubernetes environments, reducing infrastructure costs and resource consumption by 20%.'
 company: 'Kawasaki Web Soluções'
-role: 'IT Consultant / Tech Lead'
+role: 'Independent Consultant'
 dateStart: '2020-02'
 dateEnd: null
 tags: ['Observability Platform', 'OpenTelemetry', 'Cost Optimisation']
@@ -24,6 +24,6 @@ I designed a production-ready LGTM platform to aggregate logs, distributed trace
 
 ## Impact
 
-- Consolidating duplicated monitoring infrastructure reduced AWS resource usage and cost.
+- Consolidating duplicated monitoring infrastructure reduced AWS resource consumption and cost by 20%.
 - Engineers gained one investigation path across environments, reducing context switching and operational toil.
 - Richer, consistent metadata made the same telemetry useful to both technical and business stakeholders.

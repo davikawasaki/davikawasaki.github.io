@@ -1,7 +1,7 @@
 ---
 title: 'SSO com Keycloak para login social e corporativo'
 slug: 'keycloak-oidc-sso'
-summary: 'Plataforma central de identidade com Keycloak e OIDC que ofereceu aos times de produto um caminho reutilizável para SSO social e corporativo.'
+summary: 'Plataforma central de identidade com Keycloak e OIDC que unificou o acesso entre dois produtos e migrou 100% dos usuários legados ativos sem perda de contas.'
 company: 'Starops'
 role: 'DevOps & Data Engineer'
 dateStart: '2021-09'
@@ -20,10 +20,11 @@ Cada aplicação tratava a autenticação de forma independente, gerando seguran
 
 ## Abordagem
 
-Estabeleci o Keycloak como plataforma central de identidade e integrei front-ends Vue.js e APIs Node.js por OIDC. Um padrão reutilizável de integração suportava provedores sociais e SSO corporativo sem código de autenticação específico em cada produto.
+Estabeleci o Keycloak como plataforma central de identidade e integrei dois produtos em Vue.js e Node.js por OIDC. Um padrão reutilizável suportava provedores sociais e SSO corporativo, enquanto um fluxo automatizado de redefinição de senha por e-mail migrou usuários ativos sem depender das credenciais antigas.
 
 ## Impacto
 
 - Os times de produto ganharam um caminho de integração padronizado em vez de reconstruir a autenticação por aplicação.
+- 100% dos usuários legados ativos foram migrados sem perda de contas.
 - Clientes corporativos puderam trazer seu próprio SSO sem trabalho específico de integração em cada produto.
 - Políticas centralizadas e maior auditabilidade substituíram implementações sob medida e difíceis de revisar.

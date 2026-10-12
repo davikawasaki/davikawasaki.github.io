@@ -16,18 +16,18 @@ export const ui = {
     'nav.theme': 'Toggle theme',
     'nav.menu': 'Menu',
 
-    'hero.badge': 'Senior SRE & Platform Engineer',
+    'hero.badge': 'Senior Platform Engineer & SRE',
     'hero.headline': 'Davi Kawasaki',
     'hero.subhead':
-      'Building reliable self-service platforms, automated delivery paths and clear operating models for distributed engineering teams.',
+      'Building cloud platforms, GitOps delivery systems and resilient infrastructure that help engineering teams ship safely.',
     'hero.ctaPrimary': 'View resume',
     'hero.ctaSecondary': 'See projects',
 
     'about.title': 'About',
     'about.body1':
-      "I'm a Senior Site Reliability & Platform Engineer, available for global remote contracts. Over the past several years I've engineered cloud infrastructure across US, European and LATAM tech companies. I specialise in building Internal Developer Platforms (IDP), automated GitOps pipelines, and scaling cloud telemetry.",
+      "I'm a Senior Platform Engineer and Site Reliability Engineer with hands-on experience across Kubernetes, Terraform, AWS, GCP, GitOps, CI/CD, observability and Infrastructure as Code. I've worked with startups and multinational organisations across LATAM, the US and EMEA.",
     'about.body2':
-      'My mission is to champion developer self-service autonomy and to eliminate operational toil through clear asynchronous documentation and written architectural standards. Also working on my own SaaS projects in my spare time: Ecomfw, Zyfinbot & Fisihome.',
+      'Recent work includes reducing Kubernetes observability costs and resource consumption by 20%, cutting disaster recovery from hours to under 10 minutes, reducing Artifact Registry costs by 19%, resolving more than 50 container CVEs and removing 40% of stale Kafka infrastructure.',
     'about.cta': 'Read the full resume',
 
     'skills.title': 'Tools & Skills',
@@ -57,7 +57,7 @@ export const ui = {
     'blog.readOnMedium': 'Read on Medium',
 
     'resume.title': 'Resume',
-    'resume.subtitle': 'Senior SRE and Platform Engineer focused on internal developer platforms, self-service infrastructure and reliable async operations',
+    'resume.subtitle': 'Senior Platform Engineer and SRE focused on Kubernetes, Terraform, GitOps, cloud infrastructure and observability',
     'resume.experience': 'Experience',
     'resume.education': 'Education',
     'resume.certifications': 'Certifications',
@@ -101,18 +101,18 @@ export const ui = {
     'nav.theme': 'Alternar tema',
     'nav.menu': 'Menu',
 
-    'hero.badge': 'Senior SRE & Platform Engineer',
+    'hero.badge': 'Senior Platform Engineer & SRE',
     'hero.headline': 'Davi Kawasaki',
     'hero.subhead':
-      'Construindo plataformas self-service confiáveis, fluxos de entrega automatizados e modelos operacionais claros para times de engenharia distribuídos.',
+      'Construindo plataformas em nuvem, fluxo automatizado em GitOps e infraestrutura resiliente que ajudam times de engenharia a entregar software com segurança.',
     'hero.ctaPrimary': 'Ver currículo',
     'hero.ctaSecondary': 'Ver projetos',
 
     'about.title': 'Sobre',
     'about.body1':
-      'Atuo como Senior Site Reliability & Platform Engineer, disponível para contratos remotos globais). Nos últimos anos, desenvolvi projetos de infraestrutura em nuvem para empresas de tecnologia nos EUA, Europa e LATAM. Sou especialista na construção de Plataformas Internas de Desenvolvimento (IDP), pipelines de GitOps automatizados e escalabilidade de observabilidade.',
+      'Atuo como Senior Platform Engineer e Site Reliability Engineer, com experiência prática em Kubernetes, Terraform, AWS, GCP, GitOps, CI/CD, observabilidade e Infraestrutura como Código. Trabalhei com startups e multinacionais na América Latina, nos Estados Unidos e na região EMEA.',
     'about.body2':
-      'Minha missão é promover a autonomia self-service para times de desenvolvimento e eliminar o trabalho manual por meio de documentação assíncrona clara e padrões arquiteturais escritos. No meu tempo livre também trabalho nos meus próprios projetos SaaS: Ecomfw, Zyfinbot & Fisihome.',
+      'Meus trabalhos recentes incluem redução de custos e consumo da observabilidade Kubernetes em 20%, redução da recuperação de desastre de horas para menos de 10 minutos, diminuição dos custos do Artifact Registry em 19%, resolução de mais de 50 CVEs de containers e remoção de infraestrutura Kafka obsoleta em 40%.',
     'about.cta': 'Ler o currículo completo',
 
     'skills.title': 'Ferramentas & Habilidades',
@@ -142,7 +142,7 @@ export const ui = {
     'blog.readOnMedium': 'Ler no Medium',
 
     'resume.title': 'Currículo',
-    'resume.subtitle': 'Senior SRE e Platform Engineer com foco em plataformas internas, infraestrutura self-service e operações assíncronas confiáveis',
+    'resume.subtitle': 'Senior Platform Engineer e SRE com foco em Kubernetes, Terraform, GitOps, infraestrutura em nuvem e observabilidade',
     'resume.experience': 'Experiência',
     'resume.education': 'Educação',
     'resume.certifications': 'Certificações',

@@ -1,11 +1,11 @@
 ---
 title: 'Kafka → Terraform migration'
 slug: 'kafka-terraform-migration'
-summary: 'Migration of legacy Kafka resources into version-controlled, self-service Terraform pipelines with reviewable changes across every environment.'
+summary: 'Migration of legacy Kafka resources into version-controlled Terraform pipelines that removed approximately 40% of stale infrastructure and retired the old release tooling.'
 company: 'Toptal — Fashion Digital client'
 role: 'Senior Site Reliability & Platform Engineer'
 dateStart: '2025-08'
-dateEnd: null
+dateEnd: '2026-09'
 tags: ['Internal Platform', 'Self-service', 'Infrastructure as Code']
 techStack: ['Terraform', 'Kafka', 'GitHub Actions']
 featured: true
@@ -25,5 +25,6 @@ Working with SRE and Cloud Engineering, I co-architected the import of existing 
 ## Impact
 
 - Kafka resources across environments became version-controlled, reviewable and reproducible.
+- Approximately 40% of stale Kafka resources were identified and removed during the migration.
 - The outdated deployment application was retired in favour of an automated infrastructure pipeline.
 - Teams can promote changes from a readable Terraform plan instead of relying on manual, undocumented operations.
