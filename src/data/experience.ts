@@ -30,48 +30,16 @@ export const availability: Bilingual = {
 
 export const experience: ExperienceEntry[] = [
   {
-    company: 'Toptal',
-    role: { en: 'Senior Site Reliability & Platform Engineer', pt: 'Senior Site Reliability & Platform Engineer' },
+    company: 'Hireworks (Finalsite)',
+    role: { en: 'Senior Site Reliability & Cloud Engineer', pt: 'Senior Site Reliability & Cloud Engineer' },
     location: { en: 'Londrina, Brazil', pt: 'Londrina, Brasil' },
     mode: { en: 'Remote, Contractor', pt: 'Remoto, PJ' },
-    start: '2025-08',
-    end: '2026-09',
+    start: '2026-10',
+    end: null,
     bullets: [
       {
-        en: 'Refactored an internal Python/Flask GitOps platform with Kustomize and GitHub webhooks, cutting aggregate GitHub Actions execution time by approximately one hour per day and enabling granular image updates in multi-container deployments.',
-        pt: 'Refatorei uma plataforma interna de GitOps em Python/Flask com Kustomize e webhooks do GitHub, reduzindo em aproximadamente uma hora por dia o tempo agregado de execução do GitHub Actions e permitindo atualizações granulares de imagens em deployments multi-container.',
-      },
-      {
-        en: 'Hardened the platform with repository-level authorization, automatic GitHub OAuth, HMAC-signed webhooks, Firestore caching and ETag-based conditional requests, reducing UI load time to approximately 350 ms.',
-        pt: 'Reforcei a plataforma com autorização por repositório, OAuth automático do GitHub, webhooks assinados com HMAC, cache no Firestore e requisições condicionais com ETag, reduzindo o carregamento da interface para aproximadamente 350 ms.',
-      },
-      {
-        en: 'Reduced Google Cloud Artifact Registry storage costs by approximately 19% with a Python lifecycle process that enforced 365-day retention while protecting pinned in-use images; Datadog monitoring also identified three production deployments running outdated versions.',
-        pt: 'Reduzi os custos de armazenamento do Google Cloud Artifact Registry em aproximadamente 19% com um processo de ciclo de vida em Python que aplicava retenção de 365 dias sem remover imagens em uso; o monitoramento no Datadog também identificou três deployments de produção desatualizados.',
-      },
-      {
-        en: 'Eliminated approximately 20 minutes of manual validation per development release by implementing automated integration tests for the GitOps platform with Playwright.',
-        pt: 'Eliminei aproximadamente 20 minutos de validação manual por release de desenvolvimento ao implementar testes de integração automatizados da plataforma GitOps com Playwright.',
-      },
-      {
-        en: 'Restored Renovate automation for custom runners and base images after approximately one month of stalled pull-request creation, enabling service repositories to adopt newer base-image versions.',
-        pt: 'Restaurei a automação do Renovate para runners customizados e imagens base após aproximadamente um mês sem criação de pull requests, permitindo que os repositórios de serviços adotassem versões mais recentes.',
-      },
-      {
-        en: 'Reduced Docker runner image size by 76% and attack surface by 84% through distroless containers and Docker Hardened Images.',
-        pt: 'Reduzi o tamanho das imagens Docker dos runners em 76% e a superfície de ataque em 84% por meio de containers distroless e Docker Hardened Images.',
-      },
-      {
-        en: 'Resolved more than 50 Datadog-reported CVEs by rolling out Kubernetes image garbage-collection configuration through Terraform, limiting unused cached images to a maximum age of 24 hours.',
-        pt: 'Resolvi mais de 50 CVEs reportadas pelo Datadog ao distribuir via Terraform uma configuração de garbage collection de imagens no Kubernetes, limitando imagens não utilizadas em cache a no máximo 24 horas.',
-      },
-      {
-        en: 'Co-architected the migration of Kafka infrastructure to Terraform, removing approximately 40% of stale resources, retiring legacy release tooling and automating multi-environment deployments with GitHub Actions.',
-        pt: 'Co-arquitetei a migração da infraestrutura Kafka para Terraform, removendo aproximadamente 40% dos recursos obsoletos, aposentando ferramentas legadas de release e automatizando deployments multiambiente com GitHub Actions.',
-      },
-      {
-        en: 'Decoupled application and infrastructure delivery by moving Kubernetes manifests into dedicated GitOps repositories and implementing Argo CD ApplicationSets for environment-based deployments.',
-        pt: 'Desacoplei a entrega de aplicações e infraestrutura ao mover manifestos Kubernetes para repositórios GitOps dedicados e implementar ApplicationSets do Argo CD para deployments baseados em ambiente.',
+        en: 'Assessing AWS infrastructure for an internal platform, improving security posture, setting observability standards, improving compute performance and reducing eventual costs.',
+        pt: 'Avaliando infraestrutura AWS de uma plataforma interna, melhorando a postura de segurança, determinando padrões de observabilidade, melhorando performance computacional e reduzindo custos eventuais.',
       },
     ],
   },
@@ -122,6 +90,52 @@ export const experience: ExperienceEntry[] = [
       {
         en: 'Enriched application logs with user metadata and centralized them in AWS Elasticsearch through Filebeat and Logstash, increasing business visibility into website behavior by approximately 50%.',
         pt: 'Enriqueci logs de aplicação com metadados de usuários e os centralizei no AWS Elasticsearch por meio de Filebeat e Logstash, aumentando em aproximadamente 50% a visibilidade do negócio sobre o comportamento no site.',
+      },
+    ],
+  },
+  {
+    company: 'Toptal (Fashion Digital)',
+    role: { en: 'Senior Site Reliability & Platform Engineer', pt: 'Senior Site Reliability & Platform Engineer' },
+    location: { en: 'Londrina, Brazil', pt: 'Londrina, Brasil' },
+    mode: { en: 'Remote, Contractor', pt: 'Remoto, PJ' },
+    start: '2025-08',
+    end: '2026-09',
+    bullets: [
+      {
+        en: 'Refactored an internal Python/Flask GitOps platform with Kustomize and GitHub webhooks, cutting aggregate GitHub Actions execution time by approximately one hour per day and enabling granular image updates in multi-container deployments.',
+        pt: 'Refatorei uma plataforma interna de GitOps em Python/Flask com Kustomize e webhooks do GitHub, reduzindo em aproximadamente uma hora por dia o tempo agregado de execução do GitHub Actions e permitindo atualizações granulares de imagens em deployments multi-container.',
+      },
+      {
+        en: 'Hardened the platform with repository-level authorization, automatic GitHub OAuth, HMAC-signed webhooks, Firestore caching and ETag-based conditional requests, reducing UI load time to approximately 350 ms.',
+        pt: 'Reforcei a plataforma com autorização por repositório, OAuth automático do GitHub, webhooks assinados com HMAC, cache no Firestore e requisições condicionais com ETag, reduzindo o carregamento da interface para aproximadamente 350 ms.',
+      },
+      {
+        en: 'Reduced Google Cloud Artifact Registry storage costs by approximately 19% with a Python lifecycle process that enforced 365-day retention while protecting pinned in-use images; Datadog monitoring also identified three production deployments running outdated versions.',
+        pt: 'Reduzi os custos de armazenamento do Google Cloud Artifact Registry em aproximadamente 19% com um processo de ciclo de vida em Python que aplicava retenção de 365 dias sem remover imagens em uso; o monitoramento no Datadog também identificou três deployments de produção desatualizados.',
+      },
+      {
+        en: 'Eliminated approximately 20 minutes of manual validation per development release by implementing automated integration tests for the GitOps platform with Playwright.',
+        pt: 'Eliminei aproximadamente 20 minutos de validação manual por release de desenvolvimento ao implementar testes de integração automatizados da plataforma GitOps com Playwright.',
+      },
+      {
+        en: 'Restored Renovate automation for custom runners and base images after approximately one month of stalled pull-request creation, enabling service repositories to adopt newer base-image versions.',
+        pt: 'Restaurei a automação do Renovate para runners customizados e imagens base após aproximadamente um mês sem criação de pull requests, permitindo que os repositórios de serviços adotassem versões mais recentes.',
+      },
+      {
+        en: 'Reduced Docker runner image size by 76% and attack surface by 84% through distroless containers and Docker Hardened Images.',
+        pt: 'Reduzi o tamanho das imagens Docker dos runners em 76% e a superfície de ataque em 84% por meio de containers distroless e Docker Hardened Images.',
+      },
+      {
+        en: 'Resolved more than 50 Datadog-reported CVEs by rolling out Kubernetes image garbage-collection configuration through Terraform, limiting unused cached images to a maximum age of 24 hours.',
+        pt: 'Resolvi mais de 50 CVEs reportadas pelo Datadog ao distribuir via Terraform uma configuração de garbage collection de imagens no Kubernetes, limitando imagens não utilizadas em cache a no máximo 24 horas.',
+      },
+      {
+        en: 'Co-architected the migration of Kafka infrastructure to Terraform, removing approximately 40% of stale resources, retiring legacy release tooling and automating multi-environment deployments with GitHub Actions.',
+        pt: 'Co-arquitetei a migração da infraestrutura Kafka para Terraform, removendo aproximadamente 40% dos recursos obsoletos, aposentando ferramentas legadas de release e automatizando deployments multiambiente com GitHub Actions.',
+      },
+      {
+        en: 'Decoupled application and infrastructure delivery by moving Kubernetes manifests into dedicated GitOps repositories and implementing Argo CD ApplicationSets for environment-based deployments.',
+        pt: 'Desacoplei a entrega de aplicações e infraestrutura ao mover manifestos Kubernetes para repositórios GitOps dedicados e implementar ApplicationSets do Argo CD para deployments baseados em ambiente.',
       },
     ],
   },
